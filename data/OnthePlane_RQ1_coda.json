@@ -15,7 +15,7 @@
     "categoryFeatures": [
       {
         "rangeFeature": "PrototypicalityThreat",
-        "wildcard": "pt",
+        "wildcard": "proto",
         "labels": {
           "low": [
             0,
@@ -217,13 +217,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           }
         ]
       },
@@ -238,13 +238,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           }
         ]
       },
@@ -259,13 +259,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           }
         ]
       },
@@ -280,13 +280,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           }
         ]
       }
@@ -339,13 +339,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           }
         ]
       },
@@ -360,13 +360,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           }
         ]
       },
@@ -381,13 +381,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           }
         ]
       },
@@ -402,13 +402,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           }
         ]
       }
@@ -534,13 +534,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           }
         ]
       },
@@ -555,13 +555,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           }
         ]
       },
@@ -576,13 +576,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           }
         ]
       },
@@ -597,13 +597,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           }
         ]
       }
@@ -656,13 +656,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           }
         ]
       },
@@ -677,13 +677,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           }
         ]
       },
@@ -698,13 +698,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "(falloutDeltaValue / 2)"
+            "delta": "(20.0 / 2)"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue / 2)"
+            "delta": "-(20.0 / 2)"
           }
         ]
       },
@@ -719,13 +719,13 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": "falloutDeltaValue"
+            "delta": "20.0"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "PerceivedSuperiority",
-            "delta": "-(falloutDeltaValue)"
+            "delta": "-(20.0)"
           }
         ]
       }
