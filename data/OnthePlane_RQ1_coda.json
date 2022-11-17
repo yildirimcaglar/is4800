@@ -102,23 +102,23 @@
     },
     "abstractCategories": {
       "Ingroup": {
-        "wildcard": "A",
+        "wildcard": "In",
         "concreteCategory": "All-American"
       },
       "Outgroup": {
-        "wildcard": "D",
+        "wildcard": "Out",
         "concreteCategory": "MulticulturalCitizen"
       }
     },
     "actors": {
       "Marianne": {
-        "wildcard": "M",
+        "wildcard": "Ma",
         "PerceivedSuperiority": 75,
         "PrototypicalityThreat": 90,
         "Tolerance": 20,
         "Assertiveness": 80
       },
-      "You": {
+      "Sarah": {
         "player": "true",
         "wildcard": "U",
         "Assertiveness": 50
