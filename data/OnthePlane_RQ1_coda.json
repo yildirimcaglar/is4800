@@ -15,7 +15,7 @@
     "categoryFeatures": [
       {
         "rangeFeature": "PrototypicalityThreat",
-        "wildcard": "proto",
+        "wildcard": "r",
         "labels": {
           "low": [
             0,
