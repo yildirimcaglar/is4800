@@ -793,11 +793,6 @@
           70,
           100
         ]
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "isCategoryMembership",
-        "value": "False"
       }
     ]
   },
@@ -818,11 +813,6 @@
           30,
           69
         ]
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "isCategoryMembership",
-        "value": "False"
       }
     ]
   },
@@ -843,11 +833,6 @@
           0,
           29
         ]
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "isCategoryMembership",
-        "value": "False"
       }
     ]
   },
