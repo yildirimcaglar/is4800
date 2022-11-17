@@ -136,8 +136,44 @@
       }
     },
     
-     "uiSpecification":[]
-  },
+     "uiSpecification":[
+            { "addImage": {
+                    "name":"Background",                      
+                    "path":"Images/BullyingDemo/background-shop",			   
+                    "location":[-1280, 720],               
+                    "scale":[25.6, 14.4],  
+                    "layer":0,		                
+                    "variant":0     
+                }
+            },
+            { "addImage": {
+                    "name":"Burnet",                      
+                    "path":"Images/BullyingDemo/bully-avatar",			   
+                    "location":[-327, 500],               
+                    "scale":[-10, 12.7],  
+                    "layer":3,		                
+                    "variant":0     
+                }
+            },
+            { "addImage": {
+                    "name":"Taran",                      
+                    "path":"Images/BullyingDemo/target-avatar",			   
+                    "location":[1181, 500],               
+                    "scale":[-10, 12.7],  
+                    "layer":3,		                
+                    "variant":0     
+                }
+            },
+            { "addImage": {
+                    "name":"Byron",                      
+                    "path":"Images/BullyingDemo/bystander-avatar",			   
+                    "location":[-684, 500],               
+                    "scale":[10, 12.7],  
+                    "layer":3,		                
+                    "variant":0     
+                }
+            },
+
        
     "narrativeStructure": [
       "orient1",
