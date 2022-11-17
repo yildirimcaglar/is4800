@@ -69,7 +69,7 @@
       },
       {
         "rangeFeature": "Assertiveness",
-        "wildcard": "ps",
+        "wildcard": "a",
         "labels": {
           "low": [
             0,
@@ -113,15 +113,15 @@
     "actors": {
       "Marianne": {
         "wildcard": "M",
-        "Race": "Brushwood"
+        "PerceivedSuperiority": 75,
+        "PrototypicalityThreat": 90,
+        "Tolerance": 20,
+        "Assertiveness": 80
       },
       "You": {
         "player": "true",
         "wildcard": "U",
-        "Checkpoint": " ",
-        "perceivedSuperiority": 20,
-        "tolerance": 80,
-        "assertiveness": 50
+        "Assertiveness": 50
       }
     },
     "substitutes": {
@@ -136,10 +136,9 @@
       "orient1",
       "orient2",
       {
-        "repeatMin": 4,
+        "repeatMin": 5,
         "narrativeElement": {
           "sequence": [
-            "entrance",
             "narrative",
             "decision",
             "membershipEvaluation",
@@ -147,7 +146,6 @@
           ]
         }
       },
-      "conclusion",
       "coda"
     ]
   },
