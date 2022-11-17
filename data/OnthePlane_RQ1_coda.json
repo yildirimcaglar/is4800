@@ -135,6 +135,10 @@
         "plural": "Multicultural citizens"
       }
     },
+    
+     "uiSpecification":[]
+  },
+       
     "narrativeStructure": [
       "orient1",
       "orient2",
