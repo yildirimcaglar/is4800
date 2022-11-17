@@ -121,7 +121,10 @@
       "You": {
         "player": "true",
         "wildcard": "U",
-        "Assertiveness": 50
+        "Assertiveness": 50,
+        "PrototypicalityThreat": 0,
+        "PerceivedSuperiority": 20,
+        "Tolerance": 80
       }
     },
     "substitutes": {
