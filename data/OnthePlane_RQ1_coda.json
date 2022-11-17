@@ -118,7 +118,7 @@
         "Tolerance": 20,
         "Assertiveness": 80
       },
-      "Sarah": {
+      "You": {
         "player": "true",
         "wildcard": "U",
         "Assertiveness": 50
@@ -838,7 +838,7 @@
   },
   "naturalization1": {
     "clause": "naturalizationEvaluation",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "thinking": "This is who I am. I cannot change it for you."
@@ -864,7 +864,7 @@
   },
   "naturalization2": {
     "clause": "naturalizationEvaluation",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "thinking": "I will just appease you so we can move on."
@@ -890,7 +890,7 @@
   },
   "naturalization3": {
     "clause": "naturalizationEvaluation",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "thinking": "Let's just go with the flow."
