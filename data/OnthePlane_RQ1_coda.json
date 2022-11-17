@@ -181,7 +181,7 @@
   },
   "clause1": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "It’s actually called a hijab. And it’s OK, it doesn’t bother me. I wear it all year round just like many Muslim women."
@@ -303,7 +303,7 @@
   },
   "clause5": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "I’m Sarah. Nice to meet you."
@@ -425,7 +425,7 @@
   },
   "clause9": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "Oh… in the Indianapolis school system, I suppose?"
@@ -443,7 +443,7 @@
   },
   "clause11": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "As I mentioned, I’m from Indianapolis."
@@ -461,7 +461,7 @@
   },
   "clause13": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "I was born here in Indianapolis if that’s what you are asking."
@@ -479,7 +479,7 @@
   },
   "clause15": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "My grandparents immigrated to the US from Malaysia and moved to Indiana for work."
@@ -497,7 +497,7 @@
   },
   "clause17": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "To teach, actually. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
@@ -620,7 +620,7 @@
   },
   "clause21": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "Computer science."
@@ -742,7 +742,7 @@
   },
   "clause25": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "I teach at Princeton University."
@@ -760,7 +760,7 @@
   },
   "clause27": {
     "clause": "narrative",
-    "actor": "Sarah",
+    "actor": "You",
     "content": [
       {
         "speaking": "Well, any chance you are talking about Jason? I ask because I’m Dr. Shah. My full name is Sarah Shah, and I am the only Dr. Shah in our department."
@@ -850,7 +850,7 @@
     "tests": [
       {
         "type": "categoryMembership",
-        "actor": "Sarah",
+        "actor": "You",
         "category": "Outgroup",
         "range": [
           0,
@@ -859,7 +859,7 @@
       },
       {
         "type": "naturalizationTrajectory",
-        "actor": "Sarah",
+        "actor": "You",
         "category": "Outgroup",
         "direction": "increasing"
       }
@@ -876,7 +876,7 @@
     "tests": [
       {
         "type": "categoryMembership",
-        "actor": "Sarah",
+        "actor": "You",
         "category": "Outgroup",
         "range": [
           0,
@@ -885,7 +885,7 @@
       },
       {
         "type": "naturalizationTrajectory",
-        "actor": "Sarah",
+        "actor": "You",
         "category": "Outgroup",
         "direction": "decreasing"
       }
@@ -902,7 +902,7 @@
     "tests": [
       {
         "type": "categoryMembership",
-        "actor": "Sarah",
+        "actor": "You",
         "category": "Outgroup",
         "range": [
           0,
@@ -911,7 +911,7 @@
       },
       {
         "type": "naturalizationTrajectory",
-        "actor": "Sarah",
+        "actor": "You",
         "category": "Outgroup",
         "direction": "increasing"
       }
