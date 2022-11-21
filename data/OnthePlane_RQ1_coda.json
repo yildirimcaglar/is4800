@@ -14,72 +14,51 @@
     ],
     "categoryFeatures": [
       {
-        "rangeFeature": "PrototypicalityThreat",
-        "wildcard": "r",
-        "labels": {
-          "low": [
-            0,
-            29
-          ],
-          "mild": [
-            30,
-            69
-          ],
-          "extreme": [
-            70,
-            100
-          ]
-        }
-      },
-      {
-        "rangeFeature": "PerceivedSuperiority",
-        "wildcard": "ps",
-        "labels": {
-          "low": [
-            0,
-            29
-          ],
-          "moderate": [
-            30,
-            69
-          ],
-          "extreme": [
-            70,
-            100
-          ]
-        }
-      },
-      {
-        "rangeFeature": "Tolerance",
-        "wildcard": "t",
-        "labels": {
-          "low": [
-            0,
-            29
-          ],
-          "moderate": [
-            30,
-            69
-          ],
-          "high": [
-            70,
-            100
-          ]
-        }
-      },
-      {
         "rangeFeature": "Assertiveness",
-        "wildcard": "a",
         "labels": {
-          "low": [
+          "passive": [
             0,
-            29
+            30
           ],
-          "moderate": [
+          "neutral": [
             30,
-            69
+            70
           ],
-          "high": [
+          "assertive": [
+            70,
+            100
+          ]
+        }
+      },
+      {
+        "rangeFeature": "RacialAwareness",
+        "labels": {
+          "oblivious": [
+            0,
+            30
+          ],
+          "neutral": [
+            30,
+            70
+          ],
+          "preparedForBias": [
+            70,
+            100
+          ]
+        }
+      },
+      {
+        "rangeFeature": "CulturalAppreciation",
+        "labels": {
+          "bigotted": [
+            0,
+            30
+          ],
+          "assimilationist": [
+            30,
+            70
+          ],
+          "culturallyProud": [
             70,
             100
           ]
@@ -112,50 +91,66 @@
     },
     "actors": {
       "Marianne": {
-        "wildcard": "Ma",
-        "PerceivedSuperiority": 75,
-        "PrototypicalityThreat": 90,
-        "Tolerance": 20,
-        "Assertiveness": 80
+        "Assertiveness": 75,
+        "RacialAwareness": 25,
+        "CulturalAppreciation": 0
       },
       "You": {
         "player": "true",
-        "wildcard": "Sa",
         "Assertiveness": 50,
-        "PrototypicalityThreat": 0,
-        "PerceivedSuperiority": 20,
-        "Tolerance": 80
+        "RacialAwareness": 50,
+        "CulturalAppreciation": 100
       }
     },
     "substitutes": {
-      "All-American": {
-        "plural": "All-Americans"
-      },
-      "MulticulturalCitizen": {
-        "plural": "Multicultural citizens"
-      }
-    }, 
-       
-    "narrativeStructure": [
-      "orient1",
-      "orient2",
-      {
-        "repeatMin": 5,
-        "narrativeElement": {
-          "sequence": [
-            "narrative",
-            "decision",
-            "membershipEvaluation",
-            "naturalizationEvaluation"
-          ]
-        }
-      },
-      "coda"
-    ],
-    
-    "uiSpecification":[]     
-  },  
-  "orient1": {
+
+    },
+    "narrativeStructure": {
+      "main": [
+        "orient0",
+        "orient1",
+        "clause0",
+        "clause1",
+        "clause2",
+        "clause3",
+        "clause4",
+        "clause5",
+        "clause6",
+        "clause7",
+        "clause8",
+        "clause9",
+        "clause10",
+        "clause11",
+        "clause12",
+        "clause13",
+        "clause14",
+        "clause15",
+        "clause16",
+        "clause17",
+        "clause18",
+        "clause19",
+        "clause20",
+        "clause21",
+        "clause22",
+        "clause23",
+        "clause24",
+        "clause25",
+        "clause26",
+        "clause27",
+        "clause28",
+        "membership1",
+        "membership2",
+        "membership3",
+        "naturalization1",
+        "naturalization2",
+        "naturalization3",
+        "coda1",
+        "coda2",
+        "coda3"
+      ]
+    }
+  },
+  "orient0": {
     "clause": "orientation",
     "actor": "narrator",
     "content": [
@@ -164,7 +159,7 @@
       }
     ]
   },
-  "orient2": {
+  "orient1": {
     "clause": "orientation",
     "actor": "narrator",
     "content": [
