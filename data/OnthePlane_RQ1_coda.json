@@ -449,10 +449,14 @@
     ],
     "tests": [
       {
-        "type": "featureLabel",
+        "type": "featureRange",
         "feature": "Assertiveness",
         "actor": "You",
-        "label": "assertive"
+        "range": [
+                   70,
+                   100
+               ]
+
       }
     ]
   },
@@ -466,10 +470,13 @@
     ],
     "tests": [
       {
-        "type": "featureLabel",
+        "type": "featureRange",
         "feature": "Assertiveness",
         "actor": "You",
-        "label": "neutral"
+        "range": [
+                   30,
+                   70
+               ]
       }
     ]
   },
@@ -483,10 +490,13 @@
     ],
     "tests": [
       {
-        "type": "featureLabel",
+        "type": "featureRange",
         "feature": "Assertiveness",
         "actor": "You",
-        "label": "passive"
+        "range": [
+                   0,
+                   30
+               ]
       }
     ]
   },
