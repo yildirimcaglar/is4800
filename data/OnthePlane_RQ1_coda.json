@@ -122,7 +122,7 @@
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
-        "membershipEval1f",    
+        "membershipEval1f",
         "clause4",
         "clause5",
         "clause6",
@@ -138,7 +138,7 @@
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
-        "membershipEval1f",    
+        "membershipEval1f",
         "clause8",
         "clause9a",
         "clause9b",
@@ -170,7 +170,7 @@
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
-        "membershipEval1f",    
+        "membershipEval1f",
         "clause20",
         "clause21",
         "clause22",
@@ -186,7 +186,7 @@
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
-        "membershipEval1f",        
+        "membershipEval1f",
         "clause24",
         "clause25a",
         "clause25b",
@@ -209,7 +209,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "NEW: You are Sarah, a Muslim woman born in Indianapolis, IN. You travel frequently for work. As a Muslim woman, you have experienced prejudice when traveling and have had to deal with others’ biased perceptions triggered by your appearance."
+        "narrating": "You are Sarah, a Muslim woman born in Indianapolis, IN. You travel frequently for work. As a Muslim woman, you have experienced prejudice when traveling and have had to deal with others’ biased perceptions triggered by your appearance."
       }
     ]
   },
@@ -1079,7 +1079,7 @@
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "increasing",
+        "direction": "fluctuating",
         "actor": "You"
       }
     ]
