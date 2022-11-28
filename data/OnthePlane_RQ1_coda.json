@@ -6,7 +6,7 @@
       "passengerStatus",
       {
         "narrativeDatum": "conclusion-polarity",
-        "wildcard": "c"
+        "wildcard": "cp"
       },
       "theme",
       "themeDescription",
@@ -111,10 +111,34 @@
         "clause1",
         "clause2",
         "clause3_d1",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",
+        "membershipEval1a",
+        "membershipEval1b",
+        "membershipEval1c",
+        "membershipEval1d",
+        "membershipEval1e",
+        "membershipEval1f",    
         "clause4",
         "clause5",
         "clause6",
         "clause7_d2",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",
+        "membershipEval1a",
+        "membershipEval1b",
+        "membershipEval1c",
+        "membershipEval1d",
+        "membershipEval1e",
+        "membershipEval1f",    
         "clause8",
         "clause9a",
         "clause9b",
@@ -135,10 +159,34 @@
         "clause17c",
         "clause18",
         "clause19_d3",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",
+        "membershipEval1a",
+        "membershipEval1b",
+        "membershipEval1c",
+        "membershipEval1d",
+        "membershipEval1e",
+        "membershipEval1f",    
         "clause20",
         "clause21",
         "clause22",
         "clause23_d4",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",
+        "membershipEval1a",
+        "membershipEval1b",
+        "membershipEval1c",
+        "membershipEval1d",
+        "membershipEval1e",
+        "membershipEval1f",        
         "clause24",
         "clause25a",
         "clause25b",
@@ -149,18 +197,6 @@
         "clause28b",
         "clause28c",
         "clause28d",
-        "membershipEval1a",
-        "membershipEval1b",
-        "membershipEval1c",
-        "membershipEval1d",
-        "membershipEval1e",
-        "membershipEval1f",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
         "coda1a",
         "coda1b",
         "coda1c",
@@ -233,13 +269,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": 10
           }
         ]
       },
@@ -247,27 +283,6 @@
         "content": [
           {
             "speaking": "But there’s AC on the plane and I wear it year round anyway. I don’t see why my hijab would make me too hot."
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "RacialAwareness": -5
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "Assertiveness": -5
-          }
-        ]
-      },
-      {
-        "content": [
-          {
-            "speaking": "Oh, you’re really concerned… I have an idea why you’re asking me this."
           }
         ],
         "fallouts": [
@@ -288,6 +303,27 @@
       {
         "content": [
           {
+            "speaking": "Oh, you’re really concerned… I have an idea why you’re asking me this."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "RacialAwareness": -5
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
             "speaking": "I wear it all year round just like many Muslim women. You know what they say: You do you, I do me."
           }
         ],
@@ -296,13 +332,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": -10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": -10
           }
         ]
       }
@@ -355,13 +391,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": 10
           }
         ]
       },
@@ -369,27 +405,6 @@
         "content": [
           {
             "speaking": "Why do you ask? I don’t see why Sarah can’t be my real name."
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "RacialAwareness": -5
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "Assertiveness": -5
-          }
-        ]
-      },
-      {
-        "content": [
-          {
-            "speaking": "I feel like I know why you ask, but it’s my real name."
           }
         ],
         "fallouts": [
@@ -410,6 +425,27 @@
       {
         "content": [
           {
+            "speaking": "I feel like I know why you ask, but it’s my real name."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "RacialAwareness": -5
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
             "speaking": "Sarah is my real name. For all I know Marianne could be your nickname because your name is hard to pronounce for some people."
           }
         ],
@@ -418,13 +454,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": -10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": -10
           }
         ]
       }
@@ -449,14 +485,10 @@
     ],
     "tests": [
       {
-        "type": "featureRange",
+        "type": "featureLabel",
         "feature": "Assertiveness",
         "actor": "You",
-        "range": [
-                   70,
-                   100
-               ]
-
+        "label": "assertive"
       }
     ]
   },
@@ -470,13 +502,10 @@
     ],
     "tests": [
       {
-        "type": "featureRange",
+        "type": "featureLabel",
         "feature": "Assertiveness",
         "actor": "You",
-        "range": [
-                   30,
-                   70
-               ]
+        "label": "neutral"
       }
     ]
   },
@@ -490,13 +519,10 @@
     ],
     "tests": [
       {
-        "type": "featureRange",
+        "type": "featureLabel",
         "feature": "Assertiveness",
         "actor": "You",
-        "range": [
-                   0,
-                   30
-               ]
+        "label": "passive"
       }
     ]
   },
@@ -728,13 +754,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": 10
           }
         ]
       },
@@ -742,27 +768,6 @@
         "content": [
           {
             "speaking": "Uh huh (with a slight smile)."
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "RacialAwareness": -5
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "Assertiveness": -5
-          }
-        ]
-      },
-      {
-        "content": [
-          {
-            "speaking": "Yes, I am."
           }
         ],
         "fallouts": [
@@ -783,6 +788,27 @@
       {
         "content": [
           {
+            "speaking": "Yes, I am."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "RacialAwareness": -5
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
             "speaking": "As a matter of fact, I am a professor."
           }
         ],
@@ -791,13 +817,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": -10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": -10
           }
         ]
       }
@@ -850,13 +876,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": 10
           }
         ]
       },
@@ -864,27 +890,6 @@
         "content": [
           {
             "speaking": "I have two boys (smiling)."
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "RacialAwareness": -5
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "Assertiveness": -5
-          }
-        ]
-      },
-      {
-        "content": [
-          {
-            "speaking": "Not quite. I have two boys only."
           }
         ],
         "fallouts": [
@@ -905,6 +910,27 @@
       {
         "content": [
           {
+            "speaking": "Not quite. I have two boys only."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "RacialAwareness": -5
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
             "speaking": "No. I, too, have two boys, just like you."
           }
         ],
@@ -913,13 +939,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": -10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": -10
           }
         ]
       }
@@ -1105,7 +1131,7 @@
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "decreasing",
+        "direction": "fluctuating",
         "actor": "You"
       }
     ]
