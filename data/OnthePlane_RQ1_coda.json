@@ -67,7 +67,7 @@
     ],
     "categoryPrototypes": {
       "Xenophobic": {
-        "RacialAwareness": 10,
+        "RacialAwareness": 5,
         "CulturalAppreciation": 5,
         "Assertiveness": 70
       },
@@ -269,13 +269,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -296,7 +296,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 5
+            "Assertiveness": 10
           }
         ]
       },
@@ -317,7 +317,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -5
+            "Assertiveness": -20
           }
         ]
       },
@@ -338,7 +338,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": -20
           }
         ]
       }
@@ -391,13 +391,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -418,7 +418,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 5
+            "Assertiveness": 10
           }
         ]
       },
@@ -439,7 +439,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -5
+            "Assertiveness": -20
           }
         ]
       },
@@ -460,7 +460,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": -20
           }
         ]
       }
@@ -754,13 +754,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -781,7 +781,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 5
+            "Assertiveness": 10
           }
         ]
       },
@@ -802,7 +802,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -5
+            "Assertiveness": -20
           }
         ]
       },
@@ -823,7 +823,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": -20
           }
         ]
       }
@@ -876,13 +876,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -903,7 +903,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 5
+            "Assertiveness": 10
           }
         ]
       },
@@ -924,7 +924,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -5
+            "Assertiveness": -20
           }
         ]
       },
@@ -945,7 +945,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -10
+            "Assertiveness": -20
           }
         ]
       }
