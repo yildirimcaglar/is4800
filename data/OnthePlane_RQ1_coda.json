@@ -6,7 +6,7 @@
       "passengerStatus",
       {
         "narrativeDatum": "conclusion-polarity",
-        "wildcard": "cp"
+        "wildcard": "c"
       },
       "theme",
       "themeDescription",
@@ -54,7 +54,7 @@
             0,
             30
           ],
-          "assimilationist": [
+          "neutral": [
             30,
             70
           ],
@@ -66,40 +66,38 @@
       }
     ],
     "categoryPrototypes": {
-      "All-American": {
-        "PrototypicalityThreat": 90,
-        "PerceivedSuperiority": 75,
-        "Tolerance": 20,
-        "Assertiveness": 80
+      "Xenophobic": {
+        "RacialAwareness": 10,
+        "CulturalAppreciation": 5,
+        "Assertiveness": 70
       },
-      "MulticulturalCitizen": {
-        "PrototypicalityThreat": 0,
-        "PerceivedSuperiority": 20,
-        "Tolerance": 80,
-        "Assertiveness": 50
+      "Multicultural": {
+        "RacialAwareness": 75,
+        "CulturalAppreciation": 80,
+        "Assertiveness": 70
       }
     },
     "abstractCategories": {
       "Ingroup": {
-        "wildcard": "In",
-        "concreteCategory": "All-American"
+        "wildcard": "X",
+        "concreteCategory": "Xenophobic"
       },
       "Outgroup": {
-        "wildcard": "Out",
-        "concreteCategory": "MulticulturalCitizen"
+        "wildcard": "O",
+        "concreteCategory": "Multicultural"
       }
     },
     "actors": {
       "Marianne": {
-        "Assertiveness": 75,
-        "RacialAwareness": 25,
+        "Assertiveness": 80,
+        "RacialAwareness": 5,
         "CulturalAppreciation": 0
       },
       "You": {
         "player": "true",
         "Assertiveness": 50,
         "RacialAwareness": 50,
-        "CulturalAppreciation": 100
+        "CulturalAppreciation": 85
       }
     },
     "substitutes": {
@@ -112,41 +110,61 @@
         "clause0",
         "clause1",
         "clause2",
-        "clause3",
+        "clause3_d1",
         "clause4",
         "clause5",
         "clause6",
-        "clause7",
+        "clause7_d2",
         "clause8",
-        "clause9",
+        "clause9a",
+        "clause9b",
+        "clause9c",
         "clause10",
-        "clause11",
+        "clause11a",
+        "clause11b",
+        "clause11c",
         "clause12",
-        "clause13",
+        "clause13a",
+        "clause13b",
+        "clause13c",
         "clause14",
         "clause15",
         "clause16",
-        "clause17",
+        "clause17a",
+        "clause17b",
+        "clause17c",
         "clause18",
-        "clause19",
+        "clause19_d3",
         "clause20",
         "clause21",
         "clause22",
-        "clause23",
+        "clause23_d4",
         "clause24",
-        "clause25",
+        "clause25a",
+        "clause25b",
+        "clause25c",
         "clause26",
         "clause27",
-        "clause28",
-        "membership1",
-        "membership2",
-        "membership3",
-        "naturalization1",
-        "naturalization2",
-        "naturalization3",
-        "coda1",
-        "coda2",
-        "coda3"
+        "clause28a",
+        "clause28b",
+        "clause28c",
+        "clause28d",
+        "membershipEval1a",
+        "membershipEval1b",
+        "membershipEval1c",
+        "membershipEval1d",
+        "membershipEval1e",
+        "membershipEval1f",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",
+        "coda1a",
+        "coda1b",
+        "coda1c",
+        "coda1d"
       ]
     }
   },
@@ -173,7 +191,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "Hi there, I love your scarf thing! But isn’t it too warm for this time of year?"
+        "speaking": "Hi there, I love your scarf thing! To be honest, I would never be able to cover my hair like that."
       }
     ]
   },
@@ -182,7 +200,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "It’s actually called a hijab. And it’s OK, it doesn’t bother me. I wear it all year round just like many Muslim women."
+        "speaking": "It’s actually called a hijab. You’d look just fine with your hair covered or not, but I don’t just wear it for fashion."
       }
     ]
   },
@@ -191,7 +209,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "To be honest, I would never be able to cover my hair like that."
+        "speaking": "But isn’t it too warm for this time of year?"
       }
     ]
   },
@@ -207,84 +225,84 @@
       {
         "content": [
           {
-            "speaking": "Yeah, I totally get it! (laughing slightly)"
+            "speaking": "Oh, you must be thinking it’s synthetic, no this is a breathable fabric!"
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0)"
+            "RacialAwareness": -10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "20.0"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -10
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "I see where you are coming from."
+            "speaking": "But there’s AC on the plane and I wear it year round anyway. I don’t see why my hijab would make me too hot."
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0 / 2)"
+            "RacialAwareness": -5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Well, I don’t mind it at all."
+            "speaking": "Oh, you’re really concerned… I have an idea why you’re asking me this."
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "(20.0 / 2)"
+            "RacialAwareness": 5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 5
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "You know what they say: “You do you, I do me\"."
+            "speaking": "I wear it all year round just like many Muslim women. You know what they say: You do you, I do me."
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "20.0"
+            "RacialAwareness": 10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 10
           }
         ]
       }
@@ -313,7 +331,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "Sarah? Is that your Starbucks name? You can tell me your real one."
+        "speaking": "Sarah? Is that a nickname that’s easier to pronounce than your real name? You can tell me your real one."
       }
     ]
   },
@@ -329,84 +347,84 @@
       {
         "content": [
           {
-            "speaking": "It sounds like a Starbucks name, right? (laughing slightly) But it’s the real one!"
+            "speaking": "Oh, that is my real name! (pleasantly), it’s common in many places!"
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0)"
+            "RacialAwareness": -10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "20.0"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -10
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "I know! (smiling) But it’s my real name."
+            "speaking": "Why do you ask? I don’t see why Sarah can’t be my real name."
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0 / 2)"
+            "RacialAwareness": -5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Well, it’s actually my real name."
+            "speaking": "I feel like I know why you ask, but it’s my real name."
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "(20.0 / 2)"
+            "RacialAwareness": 5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 5
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Sarah is my real name. It has been the case since I was born."
+            "speaking": "Sarah is my real name. For all I know Marianne could be your nickname because your name is hard to pronounce for some people."
           }
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "20.0"
+            "RacialAwareness": 10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 10
           }
         ]
       }
@@ -421,12 +439,54 @@
       }
     ]
   },
-  "clause9": {
+  "clause9a": {
     "clause": "narrative",
     "actor": "You",
     "content": [
       {
         "speaking": "Oh… in the Indianapolis school system, I suppose?"
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "assertive"
+      }
+    ]
+  },
+  "clause9b": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "In the Indianapolis school system."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "neutral"
+      }
+    ]
+  },
+  "clause9c": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "Thank you. I learned English in the Indianapolis school system."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "passive"
       }
     ]
   },
@@ -439,12 +499,54 @@
       }
     ]
   },
-  "clause11": {
+  "clause11a": {
     "clause": "narrative",
     "actor": "You",
     "content": [
       {
         "speaking": "As I mentioned, I’m from Indianapolis."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "assertive"
+      }
+    ]
+  },
+  "clause11b": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I’m from Indianapolis."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "neutral"
+      }
+    ]
+  },
+  "clause11c": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I know! I’m from Indianapolis."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "passive"
       }
     ]
   },
@@ -457,12 +559,54 @@
       }
     ]
   },
-  "clause13": {
+  "clause13a": {
     "clause": "narrative",
     "actor": "You",
     "content": [
       {
         "speaking": "I was born here in Indianapolis if that’s what you are asking."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "assertive"
+      }
+    ]
+  },
+  "clause13b": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I was born in Indianapolis."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "neutral"
+      }
+    ]
+  },
+  "clause13c": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I am originally from Indianapolis but have lived in West Lafayette for a long time. It feels like my hometown now."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "passive"
       }
     ]
   },
@@ -493,12 +637,54 @@
       }
     ]
   },
-  "clause17": {
+  "clause17a": {
     "clause": "narrative",
     "actor": "You",
     "content": [
       {
-        "speaking": "To teach, actually. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
+        "speaking": "No. It’s interesting you’d think so, though. They moved here to teach at Purdue University. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "assertive"
+      }
+    ]
+  },
+  "clause17b": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "To teach at Purdue University, actually. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "neutral"
+      }
+    ]
+  },
+  "clause17c": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "Indeed! But they moved here to teach at Purdue University, actually. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "passive"
       }
     ]
   },
@@ -529,16 +715,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0)"
+            "RacialAwareness": -10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "20.0"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -10
           }
         ]
       },
@@ -550,16 +736,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0 / 2)"
+            "RacialAwareness": -5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
           }
         ]
       },
@@ -571,16 +757,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "(20.0 / 2)"
+            "RacialAwareness": 5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 5
           }
         ]
       },
@@ -592,16 +778,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "20.0"
+            "RacialAwareness": 10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 10
           }
         ]
       }
@@ -621,7 +807,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "Computer science."
+        "speaking": "Philosophy."
       }
     ]
   },
@@ -630,7 +816,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "Oh wow! One of my sons is very interested in computer science. He is studying finance but is also doing a minor in computer science. \n\nWe have two boys. You’ve probably had to have a lot—six? Seven?\n\n"
+        "speaking": "Oh wow! One of my sons is very interested in philosophy. He studies computer science but is doing a minor in philosophy.\n\nWe have two boys. You’ve probably had to have a lot—six? Seven?\n\n"
       }
     ]
   },
@@ -651,16 +837,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0)"
+            "RacialAwareness": -10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "20.0"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -10
           }
         ]
       },
@@ -672,16 +858,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "-(20.0 / 2)"
+            "RacialAwareness": -5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": -5
           }
         ]
       },
@@ -693,16 +879,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "(20.0 / 2)"
+            "RacialAwareness": 5
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0 / 2)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 5
           }
         ]
       },
@@ -714,16 +900,16 @@
         ],
         "fallouts": [
           {
-            "type": "incrementActorFeatureValue",
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "feature": "Assertiveness",
-            "delta": "20.0"
+            "RacialAwareness": 10
           },
           {
-            "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
-            "feature": "PerceivedSuperiority",
-            "delta": "-(20.0)"
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "Assertiveness": 10
           }
         ]
       }
@@ -734,16 +920,58 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "Huh, it sounds like your husband has adapted to the American culture very well. Good for you!\n\nFamily is important. I am in fact traveling to visit my son at his university. They are having a family and friends weekend on campus. My husband cannot make it, but I didn’t want to miss it. \n\n\nWhere did you say you taught?"
+        "speaking": "Huh, it sounds like your husband has adapted to the American culture very well. Good for you!\n\nFamily is important. As a matter of fact, I was just visiting my older son in Chicago. \n\nWhere did you say you taught?\n\n"
       }
     ]
   },
-  "clause25": {
+  "clause25a": {
     "clause": "narrative",
     "actor": "You",
     "content": [
       {
-        "speaking": "I teach at Princeton University."
+        "speaking": "I didn’t. But I teach at Indiana University."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "assertive"
+      }
+    ]
+  },
+  "clause25b": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I teach at Indiana University."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "neutral"
+      }
+    ]
+  },
+  "clause25c": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "Thanks. I am fortunate enough to teach at Indiana University."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "passive"
       }
     ]
   },
@@ -752,7 +980,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "No way! That’s where my son goes! He is actually a research assistant for a professor in computer science. I don’t quite understand what they do, but he just cannot stop talking about a Dr. Shah. He seems to enjoy working with her."
+        "speaking": "No way! That’s where my younger son goes! He is actually a research assistant for a professor in the AI Ethics Institute at the university. I don’t quite understand what they do, but he just cannot stop talking about a Dr. Shah. He seems to enjoy working with her."
       }
     ]
   },
@@ -768,243 +996,487 @@
       }
     ]
   },
-  "clause28": {
-    "clause": "narrative",
+  "clause28a": {
+    "clause": "conclusion",
     "actor": "Marianne",
     "content": [
       {
         "speaking": "Holy moly! Yes, I am. It’s a great pleasure to meet you Dr. Shah. Our son is very fond of you and your amazing work! He is so lucky to have a fellow Hoosier as a professor."
       }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          55,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
     ]
   },
-  "membership1": {
-    "clause": "membershipEvaluation",
+  "clause28b": {
+    "clause": "conclusion",
     "actor": "Marianne",
     "content": [
       {
-        "expressing": "smilingBroadly"
+        "speaking": "Yes, I am. Nice to meet you, Dr. Shah. Our son seems to enjoy working with you. It is interesting for him to have a professor who is also from Indiana."
       }
     ],
     "tests": [
       {
-        "type": "featureRange",
-        "actor": "Marianne",
-        "feature": "PerceivedSuperiority",
+        "type": "categoryMembership",
+        "category": "Ingroup",
         "range": [
-          70,
+          55,
           100
-        ]
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
       }
     ]
   },
-  "membership2": {
+  "clause28c": {
+    "clause": "conclusion",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "Huh, that’s unbelievable, but yes, he is my son. Life works in mysterious ways, apparently. It is interesting for him to have a professor like you. The university must be hiring faculty from all over the world."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Outgroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "clause28d": {
+    "clause": "conclusion",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "It’s almost incredible, but, yes Jason is my son. It is interesting for him to have a professor like you. Maybe he will get something out of working with professors from around the world."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Outgroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "coda1a": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "She was convinced that I am an American too. However, I ended up appeasing her to achieve this. I felt like I didn’t really stand up for myself. I feel bad that I even bolstered some of her misconceptions about Muslims."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          55,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "coda1b": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "She was convinced that I am an American too. However, I ended up appeasing her to achieve this. I felt like I didn’t really stand up for myself. I feel bad that I even bolstered some of her misconceptions about Muslims."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          55,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ]
+  },
+  "coda1c": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "She didn’t seem convinced that I could be an American, as well. I don’t care, though, as I am who I am and won’t change that for anyone. Why should my outfit make me “un-American”? I’m glad I was assertive and unapologetic about my Muslim identity. "
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Outgroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "coda1d": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "She wasn’t quite convinced that I am an American. It doesn’t seem like she welcomes people who look like me as fellow Americans. I feel good that I didn’t give in to her misconceptions about Muslims."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Outgroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ]
+  },
+  "naturalization1a": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          0.01,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "I’m doing my best to convince you that I am an American."
+      }
+    ]
+  },
+  "naturalization1b": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          0.01,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "Maybe that wasn’t convincing enough to change your opinion."
+      }
+    ]
+  },
+  "naturalization1c": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          0.01,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "I just hope you’re convinced that I am as American as you are."
+      }
+    ]
+  },
+  "naturalization1d": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          -100,
+          0
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "I hope this sounds American enough. "
+      }
+    ]
+  },
+  "naturalization1e": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          -100,
+          0
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "This is who I am. I cannot change for you."
+      }
+    ]
+  },
+  "naturalization1f": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          -100,
+          0
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "It doesn’t seem like you believe I am an American, too."
+      }
+    ]
+  },
+  "membershipEval1a": {
     "clause": "membershipEvaluation",
     "actor": "Marianne",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "actor": "You",
+        "range": [
+          0,
+          0.5
+        ]
+      }
+    ],
+    "content": [
+      {
+        "expressing": "smilingSlightly"
+      }
+    ]
+  },
+  "membershipEval1b": {
+    "clause": "membershipEvaluation",
+    "actor": "Marianne",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "actor": "You",
+        "range": [
+          0.5,
+          1
+        ]
+      }
+    ],
     "content": [
       {
         "expressing": "smiling"
       }
-    ],
+    ]
+  },
+  "membershipEval1c": {
+    "clause": "membershipEvaluation",
+    "actor": "Marianne",
     "tests": [
       {
-        "type": "featureRange",
-        "actor": "Marianne",
-        "feature": "PerceivedSuperiority",
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "actor": "You",
         "range": [
-          30,
-          69
+          1,
+          100
         ]
+      }
+    ],
+    "content": [
+      {
+        "expressing": "smilingBroadly"
       }
     ]
   },
-  "membership3": {
+  "membershipEval1d": {
     "clause": "membershipEvaluation",
     "actor": "Marianne",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "actor": "You",
+        "range": [
+          -0.5,
+          0
+        ]
+      }
+    ],
+    "content": [
+      {
+        "expressing": "frowningSlightly"
+      }
+    ]
+  },
+  "membershipEval1e": {
+    "clause": "membershipEvaluation",
+    "actor": "Marianne",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "actor": "You",
+        "range": [
+          -1,
+          -0.5
+        ]
+      }
+    ],
     "content": [
       {
         "expressing": "frowning"
       }
-    ],
+    ]
+  },
+  "membershipEval1f": {
+    "clause": "membershipEvaluation",
+    "actor": "Marianne",
     "tests": [
       {
-        "type": "featureRange",
-        "actor": "Marianne",
-        "feature": "PerceivedSuperiority",
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "actor": "You",
         "range": [
-          0,
-          29
+          -100,
+          -1
         ]
       }
-    ]
-  },
-  "naturalization1": {
-    "clause": "naturalizationEvaluation",
-    "actor": "You",
+    ],
     "content": [
       {
-        "thinking": "This is who I am. I cannot change it for you."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "actor": "You",
-        "category": "Outgroup",
-        "range": [
-          0,
-          100
-        ]
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "actor": "You",
-        "category": "Outgroup",
-        "direction": "increasing"
-      }
-    ]
-  },
-  "naturalization2": {
-    "clause": "naturalizationEvaluation",
-    "actor": "You",
-    "content": [
-      {
-        "thinking": "I will just appease you so we can move on."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "actor": "You",
-        "category": "Outgroup",
-        "range": [
-          0,
-          100
-        ]
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "actor": "You",
-        "category": "Outgroup",
-        "direction": "decreasing"
-      }
-    ]
-  },
-  "naturalization3": {
-    "clause": "naturalizationEvaluation",
-    "actor": "You",
-    "content": [
-      {
-        "thinking": "Let's just go with the flow."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "actor": "You",
-        "category": "Outgroup",
-        "range": [
-          0,
-          100
-        ]
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "actor": "You",
-        "category": "Outgroup",
-        "direction": "increasing"
-      }
-    ]
-  },
-  "coda1": {
-    "clause": "coda",
-    "actor": "You",
-    "content": [
-      {
-        "thinking": "In this game, Sarah, whose role you played, started as someone who is moderately assertive and stands up for herself sometimes. Throughout the game, your choices increased Sarah’s assertiveness by owning and expressing her identity unapologetically. This meant that Sarah did not give in to Marianne’s misconceptions.\n\n"
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Outgroup",
-        "range": [
-          70,
-          100
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Outgroup",
-        "direction": "increasing",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "conclusion-polarity",
-        "value": "Positive"
-      }
-    ]
-  },
-  "coda2": {
-    "clause": "coda",
-    "actor": "You",
-    "content": [
-      {
-        "thinking": "In this game, Sarah, whose role you played, started as someone who is moderately assertive and stands up for herself sometimes. Throughout the game, your choices sometimes maintained Sarah’s assertiveness by owning and expressing her identity but sometimes appeased Marianne by telling her what she wanted to hear.\n\n\n\n"
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Outgroup",
-        "range": [
-          30,
-          69
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Outgroup",
-        "direction": "fluctuating",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "conclusion-polarity",
-        "value": "Positive"
-      }
-    ]
-  },
-  "coda3": {
-    "clause": "coda",
-    "actor": "You",
-    "content": [
-      {
-        "thinking": "In this game, Sarah, whose role you played, started as someone who is moderately assertive and stands up for herself sometimes. Throughout the game, however, your choices lowered Sarah’s assertiveness and led her to appease Marianne in most of her reactions. This meant that Sarah had to be apologetic for who she is, bolstering Marianne’s misconceptions.\n\n\n\n\n\n"
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Outgroup",
-        "range": [
-          0,
-          29
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Outgroup",
-        "direction": "fluctuating",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "conclusion-polarity",
-        "value": "Positive"
+        "expressing": "frowning"
       }
     ]
   }
