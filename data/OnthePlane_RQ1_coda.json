@@ -272,10 +272,10 @@
             "RacialAwareness": 20
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 40
+            "feature": "Assertiveness",
+            "delta": -10
           }
         ]
       },
@@ -293,10 +293,10 @@
             "RacialAwareness": 5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 20
+            "feature": "Assertiveness",
+            "delta": -5
           }
         ]
       },
@@ -314,10 +314,10 @@
             "RacialAwareness": -5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 5
           }
         ]
       },
@@ -335,10 +335,10 @@
             "RacialAwareness": -10
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 10
           }
         ]
       }
@@ -394,10 +394,10 @@
             "RacialAwareness": 20
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 40
+            "feature": "Assertiveness",
+            "delta": -10
           }
         ]
       },
@@ -415,10 +415,10 @@
             "RacialAwareness": 5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 20
+            "feature": "Assertiveness",
+            "delta": -5
           }
         ]
       },
@@ -436,10 +436,10 @@
             "RacialAwareness": -5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 5
           }
         ]
       },
@@ -457,10 +457,10 @@
             "RacialAwareness": -10
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 10
           }
         ]
       }
