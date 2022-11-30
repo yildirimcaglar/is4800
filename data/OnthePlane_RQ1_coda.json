@@ -68,7 +68,8 @@
     "categoryPrototypes": {
       "Xenophobic": {
         "RacialAwareness": 5,
-        "CulturalAppreciation": 5
+        "CulturalAppreciation": 5,
+        "Assertiveness": 70
       },
       "Multicultural": {
         "RacialAwareness": 75,
@@ -88,6 +89,7 @@
     },
     "actors": {
       "Marianne": {
+        "Assertiveness": 50,
         "RacialAwareness": 5,
         "CulturalAppreciation": 0
       },
@@ -458,7 +460,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 10
+            "delta": 15
           }
         ]
       }
