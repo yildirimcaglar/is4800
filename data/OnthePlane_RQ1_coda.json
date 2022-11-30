@@ -109,34 +109,34 @@
         "clause1",
         "clause2",
         "clause3_d1",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
         "membershipEval1a",
         "membershipEval1b",
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
         "membershipEval1f",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",        
         "clause4",
         "clause5",
         "clause6",
         "clause7_d2",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
         "membershipEval1a",
         "membershipEval1b",
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
         "membershipEval1f",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",        
         "clause8",
         "clause9a",
         "clause9b",
@@ -157,34 +157,34 @@
         "clause17c",
         "clause18",
         "clause19_d3",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
         "membershipEval1a",
         "membershipEval1b",
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
         "membershipEval1f",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",        
         "clause20",
         "clause21",
         "clause22",
         "clause23_d4",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
         "membershipEval1a",
         "membershipEval1b",
         "membershipEval1c",
         "membershipEval1d",
         "membershipEval1e",
         "membershipEval1f",
+        "naturalization1a",
+        "naturalization1b",
+        "naturalization1c",
+        "naturalization1d",
+        "naturalization1e",
+        "naturalization1f",        
         "clause24",
         "clause25a",
         "clause25b",
@@ -444,7 +444,7 @@
       {
         "content": [
           {
-            "speaking": "Sarah is my real name. For all I know Marianne could be your nickname because your name is hard to pronounce for some people."
+            "speaking": "Sarah is my real name. For all I know Marianne may be hard to pronounce for some people."
           }
         ],
         "fallouts": [
@@ -744,7 +744,7 @@
       {
         "content": [
           {
-            "speaking": "Yeah, (shyly) I know I don’t look like it."
+            "speaking": "Yes. I know I don’t look like it. *shyly*"
           }
         ],
         "fallouts": [
@@ -765,7 +765,7 @@
       {
         "content": [
           {
-            "speaking": "Uh huh (with a slight smile)."
+            "speaking": "Maybe you are not used to seeing professors outside academic settings. It’s just another job."
           }
         ],
         "fallouts": [
@@ -786,7 +786,7 @@
       {
         "content": [
           {
-            "speaking": "Yes, I am."
+            "speaking": "It seems like it’s surprising to you, and I think I know why. Yes, I am a professor."
           }
         ],
         "fallouts": [
@@ -807,7 +807,7 @@
       {
         "content": [
           {
-            "speaking": "As a matter of fact, I am a professor."
+            "speaking": "Maybe you don’t know a lot of people in higher ed, but yes, I am in fact a professor."
           }
         ],
         "fallouts": [
@@ -887,7 +887,7 @@
       {
         "content": [
           {
-            "speaking": "I have two boys (smiling)."
+            "speaking": "That’s perhaps your impression of families in Indiana, but I have two boys, as well."
           }
         ],
         "fallouts": [
@@ -908,7 +908,7 @@
       {
         "content": [
           {
-            "speaking": "Not quite. I have two boys only."
+            "speaking": "I probably see where you are going with this, but I have two boys only."
           }
         ],
         "fallouts": [
