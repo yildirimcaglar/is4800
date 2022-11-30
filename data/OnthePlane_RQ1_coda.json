@@ -744,7 +744,7 @@
       {
         "content": [
           {
-            "speaking": "I know I don't look like it."
+            "speaking": "I know I don't look like it. (shyly)"
           }
         ],
         "fallouts": [
@@ -765,7 +765,7 @@
       {
         "content": [
           {
-            "speaking": "Why do you ask? I don’t see why Sarah can’t be my real name."
+            "speaking": "Yes. Maybe you are not used to seeing professors outside academic settings. It’s just another job."
           }
         ],
         "fallouts": [
@@ -786,7 +786,7 @@
       {
         "content": [
           {
-            "speaking": "I feel like I know why you ask, but it’s my real name."
+            "speaking": "It seems like it’s surprising to you, and I think I know why. Yes, I am a professor."
           }
         ],
         "fallouts": [
@@ -807,7 +807,7 @@
       {
         "content": [
           {
-            "speaking": "Sarah is my real name. For all I know Marianne may be hard to pronounce for some people."
+            "speaking": "Maybe you don’t know a lot of people in higher ed, but yes, I am in fact a professor."
           }
         ],
         "fallouts": [
