@@ -95,7 +95,7 @@
       },
       "You": {
         "player": "true",
-        "Assertiveness": 75,
+        "Assertiveness": 50,
         "RacialAwareness": 50,
         "CulturalAppreciation": 85
       }
@@ -275,7 +275,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 20
+            "Assertiveness": 40
           }
         ]
       },
@@ -296,7 +296,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -317,7 +317,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       },
@@ -338,7 +338,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       }
@@ -397,7 +397,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 20
+            "Assertiveness": 40
           }
         ]
       },
@@ -418,7 +418,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -439,7 +439,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       },
@@ -460,7 +460,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       }
@@ -760,7 +760,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 20
+            "Assertiveness": 40
           }
         ]
       },
@@ -781,7 +781,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -802,7 +802,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       },
@@ -823,7 +823,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       }
@@ -882,7 +882,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 20
+            "Assertiveness": 40
           }
         ]
       },
@@ -903,7 +903,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": 10
+            "Assertiveness": 20
           }
         ]
       },
@@ -924,7 +924,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       },
@@ -945,7 +945,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "Assertiveness": -20
+            "Assertiveness": -40
           }
         ]
       }
