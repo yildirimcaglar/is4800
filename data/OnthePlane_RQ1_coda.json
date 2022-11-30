@@ -68,8 +68,7 @@
     "categoryPrototypes": {
       "Xenophobic": {
         "RacialAwareness": 5,
-        "CulturalAppreciation": 5,
-        "Assertiveness": 70
+        "CulturalAppreciation": 5
       },
       "Multicultural": {
         "RacialAwareness": 75,
@@ -89,7 +88,6 @@
     },
     "actors": {
       "Marianne": {
-        "Assertiveness": 50,
         "RacialAwareness": 5,
         "CulturalAppreciation": 0
       },
@@ -275,7 +273,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": -10
+            "delta": -12
           }
         ]
       },
@@ -296,7 +294,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": -5
+            "delta": -6
           }
         ]
       },
@@ -317,7 +315,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 5
+            "delta": 6
           }
         ]
       },
@@ -338,7 +336,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 15
+            "delta": 12
           }
         ]
       }
@@ -397,7 +395,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": -10
+            "delta": -12
           }
         ]
       },
@@ -418,7 +416,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": -5
+            "delta": -6
           }
         ]
       },
@@ -439,7 +437,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 5
+            "delta": 6
           }
         ]
       },
@@ -460,7 +458,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 15
+            "delta": 12
           }
         ]
       }
@@ -757,10 +755,10 @@
             "RacialAwareness": 20
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 40
+            "feature": "Assertiveness",
+            "delta": -12
           }
         ]
       },
@@ -778,10 +776,10 @@
             "RacialAwareness": 5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 20
+            "feature": "Assertiveness",
+            "delta": -6
           }
         ]
       },
@@ -799,10 +797,10 @@
             "RacialAwareness": -5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 6
           }
         ]
       },
@@ -820,10 +818,10 @@
             "RacialAwareness": -10
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 12
           }
         ]
       }
@@ -879,10 +877,10 @@
             "RacialAwareness": 20
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 40
+            "feature": "Assertiveness",
+            "delta": -12
           }
         ]
       },
@@ -900,10 +898,10 @@
             "RacialAwareness": 5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": 20
+            "feature": "Assertiveness",
+            "delta": -6
           }
         ]
       },
@@ -921,10 +919,10 @@
             "RacialAwareness": -5
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 6
           }
         ]
       },
@@ -942,10 +940,10 @@
             "RacialAwareness": -10
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
-            "Assertiveness": -40
+            "feature": "Assertiveness",
+            "delta": 12
           }
         ]
       }
@@ -1262,7 +1260,7 @@
     ],
     "content": [
       {
-        "thinking": "I’m doing my best to convince you that I am an American."
+        "thinking": "I’ll just tell you what you want to hear."
       }
     ]
   },
@@ -1288,7 +1286,7 @@
     ],
     "content": [
       {
-        "thinking": "Maybe that wasn’t convincing enough to change your opinion."
+        "thinking": "Maybe that wasn’t precisely what you wanted to hear. "
       }
     ]
   },
@@ -1314,7 +1312,7 @@
     ],
     "content": [
       {
-        "thinking": "I just hope you’re convinced that I am as American as you are."
+        "thinking": "I just hope this is close to what you want to hear."
       }
     ]
   },
@@ -1340,7 +1338,7 @@
     ],
     "content": [
       {
-        "thinking": "I hope this sounds American enough. "
+        "thinking": "I hope this is what you want to hear."
       }
     ]
   },
@@ -1392,7 +1390,7 @@
     ],
     "content": [
       {
-        "thinking": "It doesn’t seem like you believe I am an American, too."
+        "thinking": "I don’t think this is what you want to hear, but oh well.."
       }
     ]
   },
