@@ -120,7 +120,7 @@
         "naturalization1c",
         "naturalization1d",
         "naturalization1e",
-        "naturalization1f",        
+        "naturalization1f",
         "clause4",
         "clause5",
         "clause6",
@@ -136,7 +136,7 @@
         "naturalization1c",
         "naturalization1d",
         "naturalization1e",
-        "naturalization1f",        
+        "naturalization1f",
         "clause8",
         "clause9a",
         "clause9b",
@@ -168,7 +168,7 @@
         "naturalization1c",
         "naturalization1d",
         "naturalization1e",
-        "naturalization1f",        
+        "naturalization1f",
         "clause20",
         "clause21",
         "clause22",
@@ -184,7 +184,7 @@
         "naturalization1c",
         "naturalization1d",
         "naturalization1e",
-        "naturalization1f",        
+        "naturalization1f",
         "clause24",
         "clause25a",
         "clause25b",
@@ -727,7 +727,8 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "You're a professor?"
+        "speaking": "You're a professor?",
+        "expressing": "shocked"
       }
     ]
   },
@@ -743,7 +744,7 @@
       {
         "content": [
           {
-            "speaking": "Yes. I know I don’t look like it. *shyly*"
+            "speaking": "I know I don't look like it."
           }
         ],
         "fallouts": [
@@ -764,7 +765,7 @@
       {
         "content": [
           {
-            "speaking": "Maybe you are not used to seeing professors outside academic settings. It’s just another job."
+            "speaking": "Why do you ask? I don’t see why Sarah can’t be my real name."
           }
         ],
         "fallouts": [
@@ -785,7 +786,7 @@
       {
         "content": [
           {
-            "speaking": "It seems like it’s surprising to you, and I think I know why. Yes, I am a professor."
+            "speaking": "I feel like I know why you ask, but it’s my real name."
           }
         ],
         "fallouts": [
@@ -806,7 +807,7 @@
       {
         "content": [
           {
-            "speaking": "Maybe you don’t know a lot of people in higher ed, but yes, I am in fact a professor."
+            "speaking": "Sarah is my real name. For all I know Marianne may be hard to pronounce for some people."
           }
         ],
         "fallouts": [
