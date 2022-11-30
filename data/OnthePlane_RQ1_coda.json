@@ -336,7 +336,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 10
+            "delta": 15
           }
         ]
       }
