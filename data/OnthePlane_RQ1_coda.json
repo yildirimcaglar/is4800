@@ -115,18 +115,8 @@
         "clause5",
         "clause6",
         "clause7_d2",
-        "membershipEval1a",
-        "membershipEval1b",
-        "membershipEval1c",
-        "membershipEval1d",
-        "membershipEval1e",
-        "membershipEval1f",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
+        "membershipEvaluation",
+        "naturalizationEvaluation",
         "clause8",
         "clause9a",
         "clause9b",
@@ -147,34 +137,14 @@
         "clause17c",
         "clause18",
         "clause19_d3",
-        "membershipEval1a",
-        "membershipEval1b",
-        "membershipEval1c",
-        "membershipEval1d",
-        "membershipEval1e",
-        "membershipEval1f",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
+        "membershipEvaluation",
+        "naturalizationEvaluation",
         "clause20",
         "clause21",
         "clause22",
         "clause23_d4",
-        "membershipEval1a",
-        "membershipEval1b",
-        "membershipEval1c",
-        "membershipEval1d",
-        "membershipEval1e",
-        "membershipEval1f",
-        "naturalization1a",
-        "naturalization1b",
-        "naturalization1c",
-        "naturalization1d",
-        "naturalization1e",
-        "naturalization1f",
+        "membershipEvaluation",
+        "naturalizationEvaluation",
         "clause24",
         "clause25a",
         "clause25b",
@@ -1251,6 +1221,9 @@
     "content": [
       {
         "thinking": "I’ll just tell you what you want to hear."
+      },
+      {
+        "thinking": "I’ll appease you to fit in."
       }
     ]
   },
@@ -1277,6 +1250,9 @@
     "content": [
       {
         "thinking": "Maybe that wasn’t precisely what you wanted to hear. "
+      },
+      {
+        "thinking": "Perhaps that wasn't really what you wanted me to say."
       }
     ]
   },
@@ -1303,6 +1279,9 @@
     "content": [
       {
         "thinking": "I just hope this is close to what you want to hear."
+      },
+      {
+        "thinking": "I just hope this is close to what you want me to say."
       }
     ]
   },
@@ -1329,6 +1308,9 @@
     "content": [
       {
         "thinking": "I hope this is what you want to hear."
+      },
+      {
+        "thinking": "Let's just hope this is what you want me to say."
       }
     ]
   },
@@ -1355,6 +1337,9 @@
     "content": [
       {
         "thinking": "This is who I am. I cannot change for you."
+      },
+      {
+        "thinking": "I will stand up for myself, no matter what."
       }
     ]
   },
@@ -1381,6 +1366,9 @@
     "content": [
       {
         "thinking": "I don’t think this is what you want to hear, but oh well.."
+      },
+      {
+        "thinking": "This may not be what you expected me to say, but..."
       }
     ]
   },
