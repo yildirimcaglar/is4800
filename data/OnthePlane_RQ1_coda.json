@@ -1250,7 +1250,7 @@
       }
     ]
   },
-  "naturalization1b": {
+  "naturalization1b.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1273,13 +1273,36 @@
     "content": [
       {
         "thinking": "Maybe that wasn’t precisely what you wanted to hear. "
+      }
+    ]
+  },
+  "naturalization1b.2": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          0.01,
+          100
+        ],
+        "actor": "You"
       },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
       {
         "thinking": "Perhaps that wasn't really what you wanted me to say."
       }
     ]
   },
-  "naturalization1c": {
+  "naturalization1c.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1302,13 +1325,36 @@
     "content": [
       {
         "thinking": "I just hope this is close to what you want to hear."
-      },
-      {
-        "thinking": "I just hope this is close to what you want me to say."
       }
     ]
   },
-  "naturalization1d": {
+  "naturalization1c.2": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          0.01,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "Let's hope this is close to what you want me to say."
+      }
+    ]
+  },
+  "naturalization1d.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1331,13 +1377,36 @@
     "content": [
       {
         "thinking": "I hope this is what you want to hear."
+      }
+    ]
+  },
+  "naturalization1d.2": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          -100,
+          0
+        ],
+        "actor": "You"
       },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
       {
         "thinking": "Let's just hope this is what you want me to say."
       }
     ]
   },
-  "naturalization1e": {
+  "naturalization1e.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1360,13 +1429,36 @@
     "content": [
       {
         "thinking": "This is who I am. I cannot change for you."
+      }
+    ]
+  },
+  "naturalization1e.2": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          -100,
+          0
+        ],
+        "actor": "You"
       },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
       {
         "thinking": "I will stand up for myself, no matter what."
       }
     ]
   },
-  "naturalization1f": {
+  "naturalization1f.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1389,9 +1481,32 @@
     "content": [
       {
         "thinking": "I don’t think this is what you want to hear, but oh well.."
+      }
+    ]
+  },
+  "naturalization1f.2": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          -100,
+          0
+        ],
+        "actor": "You"
       },
       {
-        "thinking": "This may not be what you expected me to say, but..."
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ],
+    "content": [
+      {
+        "thinking": "This may not be what you expected me to say, but anyway…"
       }
     ]
   },
