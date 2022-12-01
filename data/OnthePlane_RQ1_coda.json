@@ -1198,7 +1198,7 @@
       }
     ]
   },
-  "naturalization1a": {
+  "naturalization1a.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1221,7 +1221,30 @@
     "content": [
       {
         "thinking": "I’ll just tell you what you want to hear."
+      }
+    ]
+  },
+  "naturalization1a.2": {
+    "clause": "naturalizationEvaluation",
+    "actor": "You",
+    "tests": [
+      {
+        "type": "categoryMembershipDelta",
+        "category": "Ingroup",
+        "range": [
+          0.01,
+          100
+        ],
+        "actor": "You"
       },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ],
+    "content": [
       {
         "thinking": "I’ll appease you to fit in."
       }
