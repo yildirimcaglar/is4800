@@ -150,11 +150,12 @@
         "clause25b",
         "clause25c",
         "clause26",
-        "clause27",
-        "clause28a",
-        "clause28b",
-        "clause28c",
-        "clause28d",
+        "clause27a",
+        "clause27b",
+        "clause27c",
+        "clause28",
+        "clause29",
+        "conclusion",
         "coda"
       ]
     }
@@ -495,7 +496,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "As I mentioned, I’m from Indianapolis."
+        "speaking": "I’m not sure why it’s so surprising to you, but I’m from Indianapolis."
       }
     ],
     "tests": [
@@ -633,7 +634,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "No. It’s interesting you’d think so, though. They moved here to teach at Purdue University. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
+        "speaking": "No, that’s an oversimplified and incorrect guess. They moved here to teach at Purdue University. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
       }
     ],
     "tests": [
@@ -667,7 +668,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "Indeed! But they moved here to teach at Purdue University, actually. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
+        "speaking": "Agriculture is a big deal in Indiana, indeed! But they moved here to teach at Purdue University, actually. Before retiring my grandfather was a chemical engineer and my grandmother was a professor, like me."
       }
     ],
     "tests": [
@@ -911,7 +912,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "Huh, it sounds like your husband has adapted to the American culture very well. Good for you!\n\nFamily is important. As a matter of fact, I was just visiting my older son in Chicago. \n\nWhere did you say you taught?\n\n"
+        "speaking": "Huh, it sounds like your husband has adapted to American culture very well. Good for you!\n\nFamily is important. As a matter of fact, I was just visiting my older son in Chicago."
       }
     ]
   },
@@ -920,7 +921,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "I didn’t. But I teach at Indiana University."
+        "speaking": "My husband didn’t need to adapt to American culture; he was born here in the US."
       }
     ],
     "tests": [
@@ -937,7 +938,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "I teach at Indiana University."
+        "speaking": "Actually, my husband was born here in the US."
       }
     ],
     "tests": [
@@ -954,7 +955,7 @@
     "actor": "You",
     "content": [
       {
-        "speaking": "Thanks. I am fortunate enough to teach at Indiana University."
+        "speaking": "Thanks, but he was born here in the US."
       }
     ],
     "tests": [
@@ -971,11 +972,71 @@
     "actor": "Marianne",
     "content": [
       {
+        "speaking": "Interesting… Where did you say you taught?"
+      }
+    ]
+  },
+  "clause27a": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I didn’t. But I teach at Indiana University."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "assertive"
+      }
+    ]
+  },
+  "clause27b": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I teach at Indiana University."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "neutral"
+      }
+    ]
+  },
+  "clause27c": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "I am fortunate enough to teach at Indiana University."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "Assertiveness",
+        "actor": "You",
+        "label": "passive"
+      }
+    ]
+  },
+  "clause28": {
+    "clause": "narrative",
+    "actor": "Marianne",
+    "content": [
+      {
         "speaking": "No way! That’s where my younger son goes! He is actually a research assistant for a professor in the AI Ethics Institute at the university. I don’t quite understand what they do, but he just cannot stop talking about a Dr. Shah. He seems to enjoy working with her."
       }
     ]
   },
-  "clause27": {
+  "clause29": {
     "clause": "narrative",
     "actor": "You",
     "content": [
@@ -987,7 +1048,7 @@
       }
     ]
   },
-  "clause28a": {
+  "clause30a": {
     "clause": "conclusion",
     "actor": "Marianne",
     "content": [
@@ -1013,7 +1074,33 @@
       }
     ]
   },
-  "clause28b": {
+  "clause30b": {
+    "clause": "conclusion",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "Yes, he is my son. Nice to meet you, Dr. Shah. Jason seems to enjoy his work with you. Despite everything else, it’s lucky for him to work with a professor from Indiana."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          55,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "clause30c": {
     "clause": "conclusion",
     "actor": "Marianne",
     "content": [
@@ -1039,7 +1126,33 @@
       }
     ]
   },
-  "clause28c": {
+  "clause30d": {
+    "clause": "conclusion",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "It's a rather interesting twist of fate, but yes, he is my son. Despite the unusual circumstances, he seems to be enjoying his work. Let’s just hope he benefits from working with someone like you."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Outgroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "clause30e": {
     "clause": "conclusion",
     "actor": "Marianne",
     "content": [
@@ -1065,7 +1178,7 @@
       }
     ]
   },
-  "clause28d": {
+  "clause30f": {
     "clause": "conclusion",
     "actor": "Marianne",
     "content": [
@@ -1122,6 +1235,32 @@
     "actor": "You",
     "content": [
       {
+        "thinking": "In the end, she was convinced that I am American too. I initially went with the flow and told her what she wanted to hear but didn’t bolster her misconceptions about my Muslim identity."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          55,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "coda1c": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
         "thinking": "She was convinced that I am an American too. However, I ended up appeasing her to achieve this. I felt like I didn’t really stand up for myself. I feel bad that I even bolstered some of her misconceptions about Muslims."
       }
     ],
@@ -1143,7 +1282,33 @@
       }
     ]
   },
-  "coda1c": {
+  "coda1d": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "She wasn’t convinced that I was an American, too, even though I did go with the flow from time to time, not standing up against some of her misconceptions about Muslims."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Outgroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ]
+  },
+  "coda1e": {
     "clause": "coda",
     "actor": "You",
     "content": [
@@ -1169,7 +1334,7 @@
       }
     ]
   },
-  "coda1d": {
+  "coda1f": {
     "clause": "coda",
     "actor": "You",
     "content": [
