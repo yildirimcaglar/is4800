@@ -118,7 +118,7 @@
         "membershipEvaluation",
         "naturalizationEvaluation",
         "clause8",
-        "entrance",
+        "narrative",
         "clause10",
         "entrance",
         "clause12",
@@ -427,7 +427,7 @@
     "currentState": "clause9"
   },
   "clause9a": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -449,7 +449,7 @@
     ]
   },
   "clause9b": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -471,7 +471,7 @@
     ]
   },
   "clause9c": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
