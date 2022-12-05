@@ -124,9 +124,7 @@
         "clause11b",
         "clause11c",
         "clause12",
-        "clause13a",
-        "clause13b",
-        "clause13c",
+        "entrance",
         "clause14",
         "clause15",
         "clause16",
@@ -563,10 +561,11 @@
       {
         "speaking": "No, no, I mean where are you really from? Originally?"
       }
-    ]
+    ],
+    "currentState": "clause13"
   },
   "clause13a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -579,11 +578,16 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause13"
       }
     ]
   },
   "clause13b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -596,11 +600,16 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause13"
       }
     ]
   },
   "clause13c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -613,6 +622,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "passive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause13"
       }
     ]
   },
