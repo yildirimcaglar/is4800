@@ -669,7 +669,8 @@
       {
         "speaking": "To work as farmworkers? Indiana does have a lot of farms!"
       }
-    ]
+    ],
+    "currentState": "clause17"
   },
   "clause17a": {
     "clause": "narrative",
@@ -685,6 +686,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause17"
       }
     ]
   },
@@ -702,6 +708,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause17"
       }
     ]
   },
@@ -719,6 +730,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "passive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause17"
       }
     ]
   },
@@ -956,7 +972,8 @@
       {
         "speaking": "Huh, it sounds like your husband has adapted to American culture very well. Good for you!\n\nFamily is important. As a matter of fact, I was just visiting my older son in Chicago."
       }
-    ]
+    ],
+    "currentState": "clause25"
   },
   "clause25a": {
     "clause": "narrative",
@@ -972,6 +989,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause25"
       }
     ]
   },
@@ -989,6 +1011,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause25"
       }
     ]
   },
@@ -1006,6 +1033,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "passive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause25"
       }
     ]
   },
@@ -1016,7 +1048,8 @@
       {
         "speaking": "Interesting… Where did you say you taught?"
       }
-    ]
+    ],
+    "currentState": "clause27"
   },
   "clause27a": {
     "clause": "narrative",
@@ -1032,6 +1065,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause27"
       }
     ]
   },
@@ -1049,6 +1087,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause27"
       }
     ]
   },
@@ -1066,6 +1109,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "passive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause27"
       }
     ]
   },
