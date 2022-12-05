@@ -501,10 +501,11 @@
       {
         "speaking": "That’s just here! How come? Where are you from?"
       }
-    ]
+    ],
+    "currentState": "clause11"
   },
   "clause11a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -517,11 +518,16 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause11"
       }
     ]
   },
   "clause11b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -534,11 +540,16 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause11"
       }
     ]
   },
   "clause11c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -551,6 +562,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "passive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause11"
       }
     ]
   },
