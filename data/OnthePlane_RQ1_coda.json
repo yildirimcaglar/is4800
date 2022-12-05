@@ -164,7 +164,8 @@
       {
         "narrating": "Over the weekend, you visited family in Indianapolis, IN. You just boarded your plane back home, Newark, NJ and settled in your seat. You're watching other passengers board the plane. A woman just took the seat on the other side of the aisle and you greeted her with a smile as she settled in."
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause0": {
     "clause": "narrative",
@@ -440,7 +441,8 @@
         "name": "currentState",
         "value": "clause9"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause9b": {
     "clause": "narrative",
@@ -462,7 +464,8 @@
         "name": "currentState",
         "value": "clause9"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause9c": {
     "clause": "narrative",
@@ -484,7 +487,8 @@
         "name": "currentState",
         "value": "clause9"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause10": {
     "clause": "narrative",
@@ -516,7 +520,8 @@
         "name": "currentState",
         "value": "clause11"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause11b": {
     "clause": "narrative",
@@ -538,7 +543,8 @@
         "name": "currentState",
         "value": "clause11"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause11c": {
     "clause": "narrative",
@@ -560,7 +566,8 @@
         "name": "currentState",
         "value": "clause11"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause12": {
     "clause": "narrative",
@@ -592,7 +599,8 @@
         "name": "currentState",
         "value": "clause13"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause13b": {
     "clause": "narrative",
@@ -614,7 +622,8 @@
         "name": "currentState",
         "value": "clause13"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause13c": {
     "clause": "narrative",
@@ -636,7 +645,8 @@
         "name": "currentState",
         "value": "clause13"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause14": {
     "clause": "narrative",
@@ -686,7 +696,8 @@
         "name": "currentState",
         "value": "clause17"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause17b": {
     "clause": "narrative",
@@ -708,7 +719,8 @@
         "name": "currentState",
         "value": "clause17"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause17c": {
     "clause": "narrative",
@@ -730,7 +742,8 @@
         "name": "currentState",
         "value": "clause17"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause18": {
     "clause": "narrative",
@@ -989,7 +1002,8 @@
         "name": "currentState",
         "value": "clause25"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause25b": {
     "clause": "narrative",
@@ -1011,7 +1025,8 @@
         "name": "currentState",
         "value": "clause25"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause25c": {
     "clause": "narrative",
@@ -1033,7 +1048,8 @@
         "name": "currentState",
         "value": "clause25"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause26": {
     "clause": "narrative",
@@ -1065,7 +1081,8 @@
         "name": "currentState",
         "value": "clause27"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause27b": {
     "clause": "narrative",
@@ -1087,7 +1104,8 @@
         "name": "currentState",
         "value": "clause27"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause27c": {
     "clause": "narrative",
@@ -1109,7 +1127,8 @@
         "name": "currentState",
         "value": "clause27"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause28": {
     "clause": "narrative",
