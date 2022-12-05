@@ -5,12 +5,12 @@
       "topic-type",
       "passengerStatus",
       {
-        "narrativeDatum": "conclusion-polarity",
-        "wildcard": "cp"
+        "narrativeDatum": "currentState",
+        "wildcard": "p"
       },
       "theme",
       "themeDescription",
-      "type"
+      "interactiveClause"
     ],
     "categoryFeatures": [
       {
@@ -118,9 +118,7 @@
         "membershipEvaluation",
         "naturalizationEvaluation",
         "clause8",
-        "clause9a",
-        "clause9b",
-        "clause9c",
+        "entrance",
         "clause10",
         "clause11a",
         "clause11b",
@@ -429,10 +427,11 @@
       {
         "speaking": "Huh... That’s interesting. You don’t even have an accent! Where did you learn English?"
       }
-    ]
+    ],
+    "currentState": "clause9"
   },
   "clause9a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -445,11 +444,16 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause9"
       }
     ]
   },
   "clause9b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -462,11 +466,16 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause9"
       }
     ]
   },
   "clause9c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -479,6 +488,11 @@
         "feature": "Assertiveness",
         "actor": "You",
         "label": "passive"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause9"
       }
     ]
   },
