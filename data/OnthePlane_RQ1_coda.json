@@ -118,15 +118,15 @@
         "membershipEvaluation",
         "naturalizationEvaluation",
         "clause8",
-        "narrative",
+        "entrance",
         "clause10",
         "narrative",
         "clause12",
-        "narrative",
+        "entrance",
         "clause14",
         "clause15",
         "clause16",
-        "narrative",
+        "entrance",
         "clause18",
         "clause19_d3",
         "membershipEvaluation",
@@ -138,9 +138,9 @@
         "membershipEvaluation",
         "naturalizationEvaluation",
         "clause24",
-        "narrative",
+        "entrance",
         "clause26",
-        "narrative",
+        "entrance",
         "clause28",
         "clause29",
         "conclusion",
@@ -422,7 +422,7 @@
     "currentState": "clause9"
   },
   "clause9a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -445,7 +445,7 @@
     "currentState": "noninteractive"
   },
   "clause9b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -468,7 +468,7 @@
     "currentState": "noninteractive"
   },
   "clause9c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -501,7 +501,7 @@
     "currentState": "clause11"
   },
   "clause11a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -524,7 +524,7 @@
     "currentState": "noninteractive"
   },
   "clause11b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -547,7 +547,7 @@
     "currentState": "noninteractive"
   },
   "clause11c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -580,7 +580,7 @@
     "currentState": "clause13"
   },
   "clause13a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -603,7 +603,7 @@
     "currentState": "noninteractive"
   },
   "clause13b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -626,7 +626,7 @@
     "currentState": "noninteractive"
   },
   "clause13c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -677,7 +677,7 @@
     "currentState": "clause17"
   },
   "clause17a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -700,7 +700,7 @@
     "currentState": "noninteractive"
   },
   "clause17b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -723,7 +723,7 @@
     "currentState": "noninteractive"
   },
   "clause17c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -983,7 +983,7 @@
     "currentState": "clause25"
   },
   "clause25a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1006,7 +1006,7 @@
     "currentState": "noninteractive"
   },
   "clause25b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1029,7 +1029,7 @@
     "currentState": "noninteractive"
   },
   "clause25c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1062,7 +1062,7 @@
     "currentState": "clause27"
   },
   "clause27a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1085,7 +1085,7 @@
     "currentState": "noninteractive"
   },
   "clause27b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1108,7 +1108,7 @@
     "currentState": "noninteractive"
   },
   "clause27c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
