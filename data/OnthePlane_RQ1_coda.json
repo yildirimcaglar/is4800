@@ -120,15 +120,13 @@
         "clause8",
         "narrative",
         "clause10",
-        "entrance",
+        "narrative",
         "clause12",
-        "entrance",
+        "narrative",
         "clause14",
         "clause15",
         "clause16",
-        "clause17a",
-        "clause17b",
-        "clause17c",
+        "narrative",
         "clause18",
         "clause19_d3",
         "membershipEvaluation",
@@ -140,13 +138,9 @@
         "membershipEvaluation",
         "naturalizationEvaluation",
         "clause24",
-        "clause25a",
-        "clause25b",
-        "clause25c",
+        "narrative",
         "clause26",
-        "clause27a",
-        "clause27b",
-        "clause27c",
+        "narrative",
         "clause28",
         "clause29",
         "conclusion",
@@ -503,7 +497,7 @@
     "currentState": "clause11"
   },
   "clause11a": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -525,7 +519,7 @@
     ]
   },
   "clause11b": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -547,7 +541,7 @@
     ]
   },
   "clause11c": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -579,7 +573,7 @@
     "currentState": "clause13"
   },
   "clause13a": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -601,7 +595,7 @@
     ]
   },
   "clause13b": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
@@ -623,7 +617,7 @@
     ]
   },
   "clause13c": {
-    "clause": "entrance",
+    "clause": "narrative",
     "actor": "You",
     "content": [
       {
