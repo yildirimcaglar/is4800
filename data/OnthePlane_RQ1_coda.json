@@ -120,7 +120,7 @@
         "clause8",
         "entrance",
         "clause10",
-        "narrative",
+        "entrance",
         "clause12",
         "entrance",
         "clause14",
@@ -1234,7 +1234,7 @@
     "actor": "Marianne",
     "content": [
       {
-        "speaking": "It's a rather interesting twist of fate, but yes, he is my son. Despite the unusual circumstances, he seems to be enjoying his work. Let’s just hope he benefits from working with someone like you."
+        "speaking": "This is a rather interesting twist of fate, but yes, he is my son. Despite the unusual circumstances, he seems to be enjoying his work. Let’s just hope he benefits from working with someone like you."
       }
     ],
     "tests": [
@@ -1364,7 +1364,7 @@
     "actor": "You",
     "content": [
       {
-        "thinking": "She was convinced that I am an American too. However, I ended up appeasing her to achieve this. I felt like I didn’t really stand up for myself. I feel bad that I even bolstered some of her misconceptions about Muslims."
+        "thinking": "She was finally convinced that I am an American. She didn’t appear too fond of people like me, though. I should perhaps have been more assertive about my identity as a Muslim American. Sometimes it felt like I was going with the flow to appease her."
       }
     ],
     "tests": [
@@ -1693,7 +1693,7 @@
     ],
     "content": [
       {
-        "thinking": "This is who I am. I cannot change for you."
+        "thinking": "I will not give in to your misconceptions."
       }
     ]
   },
