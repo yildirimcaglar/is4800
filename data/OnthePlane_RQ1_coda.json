@@ -103,6 +103,7 @@
     },
     "narrativeStructure": {
       "main": [
+        "orient0",
         "orient1",
         "clause0",
         "clause1",
@@ -147,21 +148,12 @@
       ]
     }
   },
-  "orient0": {
-    "clause": "orientation",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "You are Sarah, a Muslim woman born in Indianapolis, IN. You travel frequently for work. As a Muslim woman, you have experienced prejudice when traveling and have had to deal with others’ biased perceptions triggered by your appearance."
-      }
-    ]
-  },
   "orient1": {
     "clause": "orientation",
     "actor": "narrator",
     "content": [
       {
-        "narrating": "Over the weekend, you visited family in Indianapolis, IN. You just boarded your plane back home, Newark, NJ and settled in your seat. You're watching other passengers board the plane. A woman just took the seat on the other side of the aisle and you greeted her with a smile as she settled in."
+        "narrating": "Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are just looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at them as they settled in."
       }
     ],
     "currentState": "noninteractive"
@@ -1145,6 +1137,9 @@
       {
         "speaking": "Well, any chance you are talking about Jason? I ask because I’m Dr. Shah. My full name is Sarah Shah, and I am the only Dr. Shah in our department."
       },
+      {
+        "expressing": "smiling"
+      }
     ]
   },
   "clause30a": {
