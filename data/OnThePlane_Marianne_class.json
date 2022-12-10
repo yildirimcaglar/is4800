@@ -580,8 +580,7 @@
       {
         "content": [
           {
-            "speaking": "Can you please speak English? I’m sure it would make people feel more comfortable. ",
-            "actor": ""
+            "speaking": "Can you please speak English? I’m sure it would make people feel more comfortable. "
           }
         ],
         "fallouts": [
@@ -591,18 +590,12 @@
             "feature": "Aggressive-Cordial",
             "delta": "10"
           }
-        ],
-        "contents": [
-          {
-            "speaking": "Can you please speak English? I’m sure it would make people feel more comfortable. "
-          }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Is that Arabic? I’ve always wanted to learn. What did you say?",
-            "actor": ""
+            "speaking": "Is that Arabic? I’ve always wanted to learn. What did you say?"
           }
         ],
         "fallouts": [
@@ -612,18 +605,12 @@
             "feature": "Curious-Indifferent",
             "delta": "10"
           }
-        ],
-        "contents": [
-          {
-            "speaking": "Is that Arabic? I’ve always wanted to learn. What did you say?"
-          }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Excuse me, were you talking to me? I can’t understand Arabic.",
-            "actor": ""
+            "speaking": "Excuse me, were you talking to me? I can’t understand Arabic."
           }
         ],
         "fallouts": [
@@ -639,18 +626,12 @@
             "feature": "Aggressive-Cordial",
             "delta": "10"
           }
-        ],
-        "contents": [
-          {
-            "speaking": "Excuse me, were you talking to me? I can’t understand Arabic."
-          }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Thank you for the blessing! My friend would also always pray before travels.",
-            "actor": ""
+            "speaking": "Thank you for the blessing! My friend would also always pray before travels."
           }
         ],
         "fallouts": [
@@ -659,11 +640,6 @@
             "actor": "Marianne",
             "feature": "Curious-Indifferent",
             "delta": "10"
-          }
-        ],
-        "contents": [
-          {
-            "speaking": "Thank you for the blessing! My friend would also always pray before travels."
           }
         ]
       }
@@ -716,8 +692,7 @@
     ],
     "content": [
       {
-        "speaking": "Yes, it was Arabic. It is a prayer for protection and safety on travels.",
-        "actor": ""
+        "speaking": "Yes, it was Arabic. It is a prayer for protection and safety on travels."
       }
     ]
   },
@@ -742,8 +717,7 @@
     ],
     "content": [
       {
-        "speaking": "No, it was just a prayer. I do it before every travel.",
-        "actor": ""
+        "speaking": "No, it was just a prayer. I do it before every travel."
       }
     ]
   },
@@ -768,8 +742,7 @@
     ],
     "content": [
       {
-        "speaking": "Very nice of you! ",
-        "actor": ""
+        "speaking": "Very nice of you! "
       }
     ]
   },
@@ -826,8 +799,7 @@
       {
         "content": [
           {
-            "speaking": "Do you have an allergy? My husband has and he asks for all the ingredients as you did.",
-            "actor": ""
+            "speaking": "Do you have an allergy? My husband has and he asks for all the ingredients as you did."
           }
         ],
         "fallouts": [
@@ -836,11 +808,6 @@
             "actor": "Marianne",
             "feature": "Curious-Indifferent",
             "delta": "10"
-          }
-        ],
-        "contents": [
-          {
-            "speaking": "Do you have an allergy? My husband has and he asks for all the ingredients as you did."
           }
         ]
       },
