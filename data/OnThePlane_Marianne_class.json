@@ -120,7 +120,7 @@
     "clause": "orientation",
     "content": [
       {
-        "acting": "Security pulls Sarah over during check-in"
+        "narrating": "Security pulls Sarah over during check-in"
       }
     ]
   },
@@ -136,12 +136,6 @@
   "dInitial1": {
     "actor": "Marianne",
     "clause": "decision",
-    "tests": [
-
-    ],
-    "content": [
-
-    ],
     "choices": [
       {
         "content": [
@@ -199,9 +193,6 @@
   "nTransition1": {
     "actor": "narrator",
     "clause": "narrative",
-    "tests": [
-
-    ],
     "content": [
       {
         "acting": "When it is your turn for screening, the process goes smoothly and you are quickly allowed to board your flight. "
@@ -211,9 +202,6 @@
   "eAsking1": {
     "actor": "Marianne",
     "clause": "entrance",
-    "tests": [
-
-    ],
     "content": [
       {
         "acting": "You enter the plane and sit at your designated seat.  To your surprise, you see the woman from earlier."
@@ -224,12 +212,6 @@
     "FocusTopic": "Asking",
     "actor": "Marianne",
     "clause": "decision",
-    "tests": [
-
-    ],
-    "content": [
-
-    ],
     "choices": [
       {
         "content": [
@@ -384,9 +366,6 @@
     "FocusTopic": "Location",
     "actor": "Marianne",
     "clause": "entrance",
-    "tests": [
-
-    ],
     "content": [
       {
         "thinking": "To pass the time you decide to ask her about where she’s from. "
@@ -396,9 +375,6 @@
   "dLocation": {
     "actor": "Marianne",
     "clause": "decision",
-    "tests": [
-
-    ],
     "choices": [
       {
         "content": [
@@ -411,7 +387,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "Curious-Indifferent",
-            "delta": "+10"
+            "delta": 10
           }
         ]
       },
@@ -426,7 +402,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "Aggressive-Cordial",
-            "delta": "+10"
+            "delta": 10
           }
         ]
       },
@@ -441,7 +417,7 @@
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
             "feature": "Aggressive-Cordial",
-            "delta": "+10"
+            "delta": 10
           },
           {
             "type": "incrementActorFeatureValue",
@@ -531,9 +507,6 @@
   "nTransition3": {
     "actor": "narrator",
     "clause": "narrative",
-    "tests": [
-
-    ],
     "content": [
       {
         "narrating": "The plane begins to rumble as it starts its ascent. You hear Sarah mutter something in Arabic under her breath."
@@ -544,9 +517,6 @@
     "FocusTopic": "Prayer",
     "actor": "narrator",
     "clause": "entrance",
-    "tests": [
-
-    ],
     "content": [
       {
         "narrating": "Unsure of exactly what she said, you choose to respond:"
@@ -556,9 +526,6 @@
   "dPrayer1": {
     "actor": "Marianne",
     "clause": "decision",
-    "tests": [
-
-    ],
     "content": [
 
     ],
@@ -652,8 +619,7 @@
     ],
     "content": [
       {
-        "speaking": "It is just a prayer. Why would it make people uncomfortable?",
-        "actor": "Sarah"
+        "speaking": "It is just a prayer. Why would it make people uncomfortable?"
       }
     ]
   },
@@ -736,9 +702,6 @@
     "FocusTopic": "Food",
     "actor": "narrator",
     "clause": "entrance",
-    "tests": [
-
-    ],
     "content": [
       {
         "narrating": "Before you can continue your conversation, the Flight attendant appears and offers the two of you food."
@@ -748,9 +711,6 @@
   "nFood1": {
     "actor": "narrator",
     "clause": "narrative",
-    "tests": [
-
-    ],
     "content": [
       {
         "narrating": "The flight attendant begins the food service and Sarah asks about the food options in detail."
@@ -760,12 +720,6 @@
   "dFood1": {
     "actor": "Marianne",
     "clause": "decision",
-    "tests": [
-
-    ],
-    "content": [
-
-    ],
     "choices": [
       {
         "content": [
@@ -899,24 +853,15 @@
     "FocusTopic": "Hijab",
     "actor": "narrator",
     "clause": "entrance",
-    "tests": [
-
-    ],
     "content": [
       {
-        "thinking": "You are wondering about Sarah's hijab"
+        "narrating": "You are wondering about Sarah's hijab"
       }
     ]
   },
   "dHijab1": {
     "actor": "Marianne",
     "clause": "decision",
-    "tests": [
-
-    ],
-    "content": [
-
-    ],
     "choices": [
       {
         "content": [
