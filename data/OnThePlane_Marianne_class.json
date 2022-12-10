@@ -123,35 +123,24 @@
   "O1": {
     "actor": "narrator",
     "clause": "orientation",
-    "tests": [
-
-    ],
     "content": [
       {
-        "narrating": "In TSA line.",
-        "actor": ""
+        "narrating": "In TSA line."
       }
     ]
   },
   "O2": {
     "actor": "narrator",
     "clause": "orientation",
-    "tests": [
-
-    ],
     "content": [
       {
-        "acting": "Security pulls Sarah over during check-in",
-        "actor": ""
+        "acting": "Security pulls Sarah over during check-in"
       }
     ]
   },
   "nInitial1": {
     "actor": "narrator",
     "clause": "narrative",
-    "tests": [
-
-    ],
     "content": [
       {
         "narrating": "After witnessing this woman get pulled to the side for extra screening, you think to yourself the following:"
@@ -171,8 +160,7 @@
       {
         "content": [
           {
-            "thinking": "I’m concerned for my safety. I think it was a good idea just to make sure",
-            "actor": ""
+            "thinking": "I’m concerned for my safety. I think it was a good idea just to make sure"
           }
         ],
         "fallouts": [
@@ -182,19 +170,12 @@
             "feature": "Aggressive-Cordial",
             "delta": "+10"
           }
-        ],
-        "contents": [
-          {
-            "thinking": "I’m concerned for my safety. I think it was a good idea just to make sure",
-            "actor": ""
-          }
         ]
       },
       {
         "content": [
           {
-            "thinking": "I didn't have to do an extra screening. I wonder why they pulled her over.\n",
-            "actor": ""
+            "thinking": "I didn't have to do an extra screening. I wonder why they pulled her over."
           }
         ],
         "fallouts": [
@@ -210,19 +191,12 @@
             "feature": "Curious-Indifferent",
             "delta": "10"
           }
-        ],
-        "contents": [
-          {
-            "thinking": "I didn't have to do an extra screening. I wonder why they pulled her over.\n",
-            "actor": ""
-          }
         ]
       },
       {
         "content": [
           {
-            "thinking": "It was not necessary for them to do that. I feel bad that she has to go through this.",
-            "actor": ""
+            "thinking": "It was not necessary for them to do that. I feel bad that she has to go through this."
           }
         ],
         "fallouts": [
@@ -231,12 +205,6 @@
             "actor": "Marianne",
             "feature": "Aggressive-Cordial",
             "delta": "-10"
-          }
-        ],
-        "contents": [
-          {
-            "thinking": "It was not necessary for them to do that. I feel bad that she has to go through this.",
-            "actor": ""
           }
         ]
       }
