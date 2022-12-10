@@ -74,14 +74,7 @@
       }
     },
     "abstractCategories": {
-      "Ingroup": {
-        "wildcard": "X",
-        "concreteCategory": "Xenophobic"
-      },
-      "Outgroup": {
-        "wildcard": "O",
-        "concreteCategory": "Open"
-      }
+
     },
     "actors": {
       "Marianne": {
