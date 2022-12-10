@@ -433,7 +433,7 @@
       {
         "content": [
           {
-            "none": "You should be used to long flights right? How long does it take to travel from the Middle East?"
+            "speaking": "You should be used to long flights right? How long does it take to travel from the Middle East?"
           }
         ],
         "fallouts": [
@@ -866,7 +866,7 @@
     ],
     "content": [
       {
-        "none": "No, I was asking to find out if they have a halal option."
+        "speaking": "No, I was asking to find out if they have a halal option."
       }
     ]
   },
@@ -891,7 +891,7 @@
     ],
     "content": [
       {
-        "none": "Yes, you cannot find a halal option often."
+        "speaking": "Yes, you cannot find a halal option often."
       }
     ]
   },
