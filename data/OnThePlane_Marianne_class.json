@@ -8,66 +8,52 @@
     ],
     "categoryFeatures": [
       {
-        "wildcard": "",
-        "player": false,
         "rangeFeature": "Aggressive-Cordial"
       },
       {
-        "wildcard": "",
-        "player": false,
         "rangeFeature": "Curious-Indifferent"
       },
       {
-        "wildcard": "",
-        "player": false,
         "rangeFeature": "Aware-Oblivious"
       }
     ],
     "categoryPrototypes": {
       "Inquisitive": {
-        "wildcard": "",
         "Aggressive-Cordial": "100",
         "Curious-Indifferent": "100",
         "Aware-Oblivious": "100"
       },
       "Disrespectful": {
-        "wildcard": "",
         "Aggressive-Cordial": "100",
         "Curious-Indifferent": "100",
         "Aware-Oblivious": "0"
       },
       "Xenophobic": {
-        "wildcard": "",
         "Aggressive-Cordial": "100",
         "Curious-Indifferent": "0",
         "Aware-Oblivious": "0"
       },
       "Bigoted": {
-        "wildcard": "",
         "Aggressive-Cordial": "100",
         "Curious-Indifferent": "0",
         "Aware-Oblivious": "100"
       },
       "Complacent": {
-        "wildcard": "",
         "Aggressive-Cordial": "0",
         "Curious-Indifferent": "0",
         "Aware-Oblivious": "0"
       },
       "Open": {
-        "wildcard": "",
         "Aggressive-Cordial": "0",
         "Curious-Indifferent": "100",
         "Aware-Oblivious": "0"
       },
       "Cautious": {
-        "wildcard": "",
         "Aggressive-Cordial": "0",
         "Curious-Indifferent": "0",
         "Aware-Oblivious": "100"
       },
       "Hospitable": {
-        "wildcard": "",
         "Aggressive-Cordial": "0",
         "Curious-Indifferent": "100",
         "Aware-Oblivious": "100"
@@ -78,14 +64,14 @@
     },
     "actors": {
       "Marianne": {
-        "wildcard": "",
+        "wildcard": "M",
         "player": "true",
         "Aggressive-Cordial": "50",
         "Curious-Indifferent": "50",
         "Aware-Oblivious": "50"
       },
       "Sarah": {
-        "wildcard": "",
+        "wildcard": "S",
         "Aggressive-Cordial": "50",
         "Curious-Indifferent": "50",
         "Aware-Oblivious": "50"
