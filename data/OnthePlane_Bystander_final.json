@@ -85,7 +85,7 @@
       ]
     }
   },
-  "nTransition1": {
+  "orient1": {
     "clause": "narrative",
     "actor": "You",
     "content": [
@@ -94,7 +94,7 @@
       }
     ]
   },
-  "eAsking1": {
+  "nIntro1": {
     "clause": "narrative",
     "actor": "You",
     "content": [
