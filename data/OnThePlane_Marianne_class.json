@@ -147,7 +147,7 @@
     "actor": "narrator",
     "content": [
       {
-        "speaking": "You went through screening without any problems and boarded your plane."
+        "speaking": "You went through screening without any problems, and boarded your plane, unlike the woman you observed being pulled aside."
       }
     ]
   },
@@ -156,7 +156,7 @@
     "actor": "narrator",
     "content": [
       {
-        "speaking": "After you've taken your seat, to your surprise, the woman from earlier sits across the aisle."
+        "speaking": "After you've taken your seat, to your surprise, that woman is sitting across the aisle."
       }
     ]
   },
