@@ -13,13 +13,26 @@
     ],
     "categoryFeatures": [
       {
-        "rangeFeature": "assertiveness",
+        "rangeFeature": "Aggressiveness",
         "labels": {
           "congenial": [
             0,
             50
           ],
           "aggressive": [
+            50,
+            100
+          ]
+        }
+      },
+      {
+        "rangeFeature": "Curiosity",
+        "labels": {
+          "indifferent": [
+            0,
+            50
+          ],
+          "curious": [
             50,
             100
           ]
@@ -40,36 +53,70 @@
       }
     ],
     "categoryPrototypes": {
-      "Ally": {
-        "assertiveness": "70"
+      "Inquisitive": {
+        "Aggressiveness": "100",
+        "Curiosity": "100",
+        "Awareness": "100"
       },
-      "Lackey": {
-        "assertiveness": "20"
+      "Disrespectful": {
+        "Aggressiveness": "100",
+        "Curiosity": "100",
+        "Awareness": "0"
+      },
+      "Xenophobic": {
+        "Aggressiveness": "100",
+        "Curiosity": "0",
+        "Awareness": "0"
+      },
+      "Bigoted": {
+        "Aggressiveness": "100",
+        "Curiosity": "0",
+        "Awareness": "100"
+      },
+      "Complacent": {
+        "Aggressiveness": "0",
+        "Curiosity": "0",
+        "Awareness": "0"
+      },
+      "Open": {
+        "Aggressiveness": "0",
+        "Curiosity": "100",
+        "Awareness": "0"
+      },
+      "Cautious": {
+        "Aggressiveness": "0",
+        "Curiosity": "0",
+        "Awareness": "100"
+      },
+      "Hospitable": {
+        "Aggressiveness": "0",
+        "Curiosity": "100",
+        "Awareness": "100"
       }
     },
     "abstractCategories": {
       "Ingroup": {
         "wildcard": "X",
-        "concreteCategory": "Lackey"
+        "concreteCategory": "Cautious"
       },
       "Outgroup": {
         "wildcard": "O",
-        "concreteCategory": "Ally"
+        "concreteCategory": "Open"
       }
     },
     "actors": {
       "You": {
-        "wildcard": "Y",
+        "wildcard": "M",
         "player": "true",
-        "assertiveness": "50"
+        "Aggressiveness": "50",
+        "Curiosity": "50",
+        "Awareness": "50"
       },
       "Sarah": {
         "wildcard": "S",
-        "assertiveness": "50"
-      },
-      "Marianne": {
-        "wildcard": "M",
-        "assertiveness": "50"
+        "Aggressiveness": "50",
+        "Curiosity": "50",
+        "Awareness": "50"
       }
     },
     "substitutes": {
@@ -77,42 +124,44 @@
     },
     "narrativeStructure": {
       "main": [
-      "orient1",
-      "nIntro1",
-      "nIntro2",
-      "dIntro",
-      "nEscalation1"
+        "nTransition1",
+        "eAsking1",
+        "dAsking1",
+        "membershipEvaluation",
+        "eLocation1",
+        "dLocation",
+        "membershipEvaluation",
+        "nTransition3",
+        "ePrayer1",
+        "dPrayer1",
+        "membershipEvaluation",
+        "eHijab1",
+        "dHijab1",
+        "membershipEvaluation",
+        "conclusion"
       ]
     }
   },
   "nTransition1": {
     "clause": "narrative",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
-        "speaking": "You are a flight attendant on a plane. You just finished training and are beginning to do rounds during flights alone. Whilst walking through the plane, you notice a woman inquiring about a hijabi woman across the aisle from her. You decide to listen further."
+        "speaking": "You went through screening without any problems and boarded your plane."
       }
     ]
   },
   "eAsking1": {
-    "clause": "narrative",
-    "actor": "You",
+    "clause": "entrance",
+    "actor": "narrator",
     "content": [
       {
-        "speaking": "Hello! I hope you are both enjoying your flight. Is there anything I can do for you?"
+        "speaking": "After you've taken your seat, to your surprise, the woman from earlier sits across the aisle."
       }
     ]
   },
-  "nIntro2": {
-    "clause": "narrative",
-    "actor": "Marianne",
-    "content": [
-      {
-        "speaking": "Yes actually, I’m so glad you finally stopped in. I’m honestly quite concerned about the safety of this flight. Are we sure everyone is being properly checked before they enter the plane?"
-      }
-    ]
-  },
-  "dIntro": {
+  "dAsking1": {
+    "FocusTopic": "Asking",
     "clause": "decision",
     "actor": "You",
     "content": [
@@ -124,14 +173,14 @@
       {
         "content": [
           {
-            "speaking": "I’m so sorry this is worrying you. Let me see what I can do to make you feel more comfortable. "
+            "speaking": "What they did back there was unfair. Are you ok?"
           }
         ],
         "fallouts": [
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
-            "feature": "assertiveness",
+            "feature": "Aggressiveness",
             "delta": -10
           }
         ]
@@ -139,29 +188,29 @@
       {
         "content": [
           {
-            "speaking": "I totally understand what you mean, but I can assure you that this flight is safe. "
+            "speaking": "How come they pulled you to the side? Did you forget to take off your watch? Happens to me all the time."
           }
         ],
         "fallouts": [
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
-            "feature": "assertiveness",
-            "delta": -5
+            "feature": "Awareness",
+            "delta": -10
           }
         ]
       },
       {
         "content": [
           {
-            "speaking": "Everyone has been screened in proper accordance."
+            "speaking": "I saw what happened earlier. Is this something that happens to you often?"
           }
         ],
         "fallouts": [
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
-            "feature": "assertiveness",
+            "feature": "Curiosity",
             "delta": 10
           }
         ]
@@ -176,19 +225,720 @@
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
-            "feature": "assertiveness",
+            "feature": "Curiosity",
             "delta": -10
           }
         ]
       }
     ]
   },
-  "nEscalation1": {
-    "clause": "narrative",
+  "meAsking1": {
+    "clause": "membershipEvaluation",
     "actor": "Sarah",
     "content": [
       {
-        "speaking": "Excuse me ma’am, but are you concerned about me?"
+        "speaking": "Yes, it was. Thanks for your support. I am okay. It happens on most of my flights."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Asking"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meAsking2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "No, but I look suspicious to them, I guess."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Asking"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meAsking3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, you get used to it after a while."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Asking"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Cautious",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "eLocation1": {
+    "clause": "entrance",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "To pass the time you decide to ask her about where she’s from. "
+      }
+    ]
+  },
+  "dLocation": {
+    "FocusTopic": "Location",
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "4 hours isn’t too bad. Are you from New Jersey? "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Curiosity",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I know International flights must take ages. How bad was the layover time?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "You should be used to long flights right? How long does it take to travel from the Middle East?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      }
+    ]
+  },
+  "meLocation1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I am! Just coming back from a family visit."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Location"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meLocation2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "It must be long, but I am not transferring from an international flight."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Location"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meLocation3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I do not know. I am from New Jersey. So, I did not travel from there."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Location"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Xenophobic",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "nTransition3": {
+    "clause": "narrative",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "The plane begins to rumble as it starts its ascent. You hear Sarah mutter something in Arabic under her breath."
+      }
+    ]
+  },
+  "ePrayer1": {
+    "clause": "entrance",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "Unsure of exactly what she said, you choose to respond:"
+      }
+    ]
+  },
+  "dPrayer1": {
+    "FocusTopic": "Prayer",
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "Is that Arabic? I’ve always wanted to learn. What did you say?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Curiosity",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Can you please speak English? I’m sure it would make people feel more comfortable. "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Excuse me, were you talking to me? I can’t understand Arabic."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      }
+    ]
+  },
+  "mePrayer1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "It is just a prayer. Why would it make people uncomfortable?"
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "mePrayer2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, it was Arabic. It is a prayer for protection and safety on travels."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "mePrayer3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "No, it was just a prayer. I do it before every travel."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "mePrayer4": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, it is. Very nice of you!"
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Open",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "eHijab1": {
+    "clause": "entrance",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "You are wondering about Sarah's hijab..."
+      }
+    ]
+  },
+  "dHijab1": {
+    "FocusTopic": "Hijab",
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I am deeply sorry that you have to wear a scarf like this in this hot weather."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Why do you wear a scarf? Isn’t it really hot in here?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I like the color of your hijab. May I ask where you got it?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": -10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": 10
+          }
+        ]
+      }
+    ]
+  },
+  "meHijab1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I wear it because I want to. I think that your concern is not about the weather."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Hijab"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meHijab2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I do not have to wear it. I wear it because I want to."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Hijab"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Xenophobic",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meHijab3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Oh, thanks. Actually, it’s a gift from my friend and my favorite one too."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Hijab"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Cautious",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "cInquisitive1": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have an inquisitive attitude toward Sarah.\nYou demonstrated appropriate knowledge of Islamic culture yet still continued to ask questions."
+      }
+    ]
+  },
+  "cDisrespectful2": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a disrespectful attitude toward Sarah.\nWhile curious to learn more, your lack of knowledge and assertiveness still came off as rude "
+      }
+    ]
+  },
+  "cXenophobic3": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Xenophobic",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a xenophobic attitude toward Sarah.\nYour lack of awareness and curiosity revealed underlying prejudices you hold toward those of different backgrounds\n"
+      }
+    ]
+  },
+  "cBigoted4": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Bigoted",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a bigoted attitude toward Sarah.\nDespite your knowledge of Islamic culture, your responses showed active mistreatment and disdain toward Sarah."
+      }
+    ]
+  },
+  "cComplacent5": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Complacent",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a complacent attitude toward Sarah.\nYou opted to maintain the status quo, neither insulting nor supporting Sarah through her experience. \n"
+      }
+    ]
+  },
+  "cOpen6": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Open",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have an open attitude toward Sarah.\nDespite a lack of knowledge of Islamic culture, your choices showcased a willingness to learn more"
+      }
+    ]
+  },
+  "cCautious7": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Cautious",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a cautious attitude toward Sarah.\nYou chose not to question Sarah further despite knowing what she was going through possibly in an attempt not to upset her further."
+      }
+    ]
+  },
+  "cHospitable8": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Hospitable",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a hospitable attitude toward Sarah.\nYou showcased a desire to learn more about Sarah, help her through her situation, and did so in a way that was respectful."
       }
     ]
   }
