@@ -105,7 +105,7 @@
       }
     },
     "actors": {
-      "Marianne": {
+      "You": {
         "wildcard": "M",
         "player": "true",
         "Aggressiveness": "50",
@@ -148,58 +148,63 @@
       }
     ]
   },
-  "dInitial1": {
-    "actor": "Marianne",
+  "clause3_d1": {
     "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
     "choices": [
       {
         "content": [
           {
-            "thinking": "I’m concerned for my safety. I think it was a good idea just to make sure"
+            "speaking": "I’m concerned for my safety. I think it was a good idea just to make sure"
           }
         ],
         "fallouts": [
           {
             "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
+            "actor": "You",
             "feature": "Aggressiveness",
-            "delta": "+10"
+            "delta": 10
           }
         ]
       },
       {
         "content": [
           {
-            "thinking": "I didn't have to do an extra screening. I wonder why they pulled her over."
+            "speaking": "I didn't have to do an extra screening. I wonder why they pulled her over."
           }
         ],
         "fallouts": [
           {
             "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
+            "actor": "You",
             "feature": "Awareness",
-            "delta": "-10"
+            "delta": -10
           },
           {
             "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
+            "actor": "You",
             "feature": "Curiosity",
-            "delta": "10"
+            "delta": 10
           }
         ]
       },
       {
         "content": [
           {
-            "thinking": "It was not necessary for them to do that. I feel bad that she has to go through this."
+            "speaking": "It was not necessary for them to do that. I feel bad that she has to go through this."
           }
         ],
         "fallouts": [
           {
             "type": "incrementActorFeatureValue",
-            "actor": "Marianne",
+            "actor": "You",
             "feature": "Aggressiveness",
-            "delta": "-10"
+            "delta": 10
           }
         ]
       }
