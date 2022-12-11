@@ -124,9 +124,6 @@
     },
     "narrativeStructure": {
       "main": [
-        "orient1",
-        "clause0",
-        "dInitial1",
         "nTransition1",
         "eAsking1",
         "dAsking1",
@@ -146,92 +143,12 @@
       ]
     }
   },
-  "orient1": {
-    "clause": "orientation",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "In TSA line, security pulls Sarah over during check-in."
-      }
-    ]
-  },
-  "clause0": {
-    "clause": "narrative",
-    "actor": "narrator",
-    "content": [
-      {
-        "speaking": "After witnessing this woman get pulled to the side for extra screening, you think to yourself the following:"
-      }
-    ]
-  },
-  "dInitial1": {
-    "clause": "decision",
-    "actor": "You",
-    "content": [
-      {
-        "expressing": "Choose what you want to say"
-      }
-    ],
-    "choices": [
-      {
-        "content": [
-          {
-            "speaking": "I’m concerned for my safety. I think it was a good idea just to make sure"
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "incrementActorFeatureValue",
-            "actor": "You",
-            "feature": "Aggressiveness",
-            "delta": 10
-          }
-        ]
-      },
-      {
-        "content": [
-          {
-            "speaking": "I didn't have to do an extra screening. I wonder why they pulled her over."
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "incrementActorFeatureValue",
-            "actor": "You",
-            "feature": "Awareness",
-            "delta": -10
-          },
-          {
-            "type": "incrementActorFeatureValue",
-            "actor": "You",
-            "feature": "Curiosity",
-            "delta": 10
-          }
-        ]
-      },
-      {
-        "content": [
-          {
-            "speaking": "It was not necessary for them to do that. I feel bad that she has to go through this."
-          }
-        ],
-        "fallouts": [
-          {
-            "type": "incrementActorFeatureValue",
-            "actor": "You",
-            "feature": "Aggressiveness",
-            "delta": 10
-          }
-        ]
-      }
-    ]
-  },
   "nTransition1": {
     "clause": "narrative",
     "actor": "narrator",
     "content": [
       {
-        "speaking": "When it is your turn for screening, the process goes smoothly and you are quickly allowed to board your flight. "
+        "speaking": "You went through screening without any problems and boarded your plane."
       }
     ]
   },
@@ -240,7 +157,7 @@
     "actor": "narrator",
     "content": [
       {
-        "speaking": "You enter the plane and sit at your designated seat.  To your surprise, you see the woman from earlier."
+        "speaking": "After you've taken your seat, to your surprise, the woman from earlier sits across the aisle."
       }
     ]
   },
