@@ -730,5 +730,152 @@
         ]
       }
     ]
+  },
+  "eHijab1": {
+    "clause": "entrance",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "You are wondering about Sarah's hijab..."
+      }
+    ]
+  },
+  "dHijab1": {
+    "FocusTopic": "Hijab",
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I am deeply sorry that you have to wear a scarf like this in this hot weather."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Why do you wear a scarf? Isn’t it really hot in here?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I like the color of your hijab. May I ask where you got it?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": -10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": 10
+          }
+        ]
+      }
+    ]
+  },
+  "meHijab1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I wear it because I want to. I think that your concern is not about the weather."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Hijab"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meHijab2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I do not have to wear it. I wear it because I want to."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Hijab"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Xenophobic",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meHijab3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Oh, thanks. Actually, it’s a gift from my friend and my favorite one too."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Hijab"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Cautious",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
   }
 }
