@@ -125,7 +125,8 @@
     "narrativeStructure": {
       "main": [
         "orient1",
-        "clause0"
+        "clause0",
+        "dInitial1"
       ]
     }
   },
