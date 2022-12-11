@@ -1,5 +1,5 @@
 {
-  "O1": {
+  "orient1": {
     "actor": "narrator",
     "clause": "orientation",
     "content": [
@@ -304,14 +304,16 @@
     ],
     "content": [
       {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions.",
-        "actor": "narrator"
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions."
       }
     ]
   },
   "ChimeriaSetup": {
     "narrativeData": [
-
+      {
+        "narrativeDatum": "FocusTopic",
+        "wildcard": "T"
+      }
     ],
     "categoryFeatures": [
       {
@@ -353,7 +355,8 @@
     },
     "actors": {
       "Marriane": {
-        "wildcard": "M"
+        "wildcard": "M",
+        "assertiveness": "50"
       },
       "You": {
         "wildcard": "Y",
@@ -361,14 +364,15 @@
         "assertiveness": "50"
       },
       "Sarah": {
-        "wildcard": "A"
+        "wildcard": "A",
+        "assertiveness": "50"
       }
     },
     "substitutes": {
 
     },
     "narrativeStructure": [
-      "O1",
+      "orient1",
       "nIntro1",
       "nIntro2",
       "dIntro",
