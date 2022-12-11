@@ -128,7 +128,6 @@
         "eAsking1",
         "dAsking1",
         "membershipEvaluation",
-        "nTransition2",
         "eLocation1",
         "dLocation",
         "membershipEvaluation",
@@ -219,7 +218,7 @@
       {
         "content": [
           {
-            "speaking": "It's none of my business and she probably doesn’t want to talk about it"
+            "thinking": "It's none of my business and she probably doesn’t want to talk about it (self-talk)"
           }
         ],
         "fallouts": [
@@ -305,15 +304,6 @@
           "0",
           "15"
         ]
-      }
-    ]
-  },
-  "nTransition2": {
-    "clause": "narrative",
-    "actor": "narrator",
-    "content": [
-      {
-        "speaking": "When it is your turn for screening, the process goes smoothly and you are quickly allowed to board your flight. "
       }
     ]
   },
