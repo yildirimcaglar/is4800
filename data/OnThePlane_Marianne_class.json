@@ -403,7 +403,7 @@
       }
     ]
   },
-  "eAsking2": {
+  "eLocation1": {
     "clause": "entrance",
     "actor": "narrator",
     "content": [
@@ -543,6 +543,187 @@
         "type": "categoryMembershipDelta",
         "actor": "Marianne",
         "category": "Xenophobic",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "nTransition3": {
+    "clause": "narrative",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "The plane begins to rumble as it starts its ascent. You hear Sarah mutter something in Arabic under her breath."
+      }
+    ]
+  },
+  "ePrayer1": {
+    "clause": "entrance",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "Unsure of exactly what she said, you choose to respond:"
+      }
+    ]
+  },
+  "dPrayer1": {
+    "FocusTopic": "Prayer",
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "Is that Arabic? I’ve always wanted to learn. What did you say?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Curiosity",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Can you please speak English? I’m sure it would make people feel more comfortable. "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Excuse me, were you talking to me? I can’t understand Arabic."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      }
+    ]
+  },
+  "mePrayer1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "It is just a prayer. Why would it make people uncomfortable?"
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "mePrayer2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, it was Arabic. It is a prayer for protection and safety on travels."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "mePrayer3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "No, it was just a prayer. I do it before every travel."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "mePrayer4": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, it is. Very nice of you!"
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Prayer"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Open",
         "range": [
           "0",
           "15"
