@@ -188,7 +188,7 @@
   },
   "nEscalation2": {
     "clause": "narrative",
-    "actor": "Marriane",
+    "actor": "Marianne",
     "content": [
       {
         "speaking": "I apologize, but you have to understand. I was born and raised in the United States, you have to understand."
@@ -216,7 +216,7 @@
       {
         "content": [
           {
-            "speaking": "I understand what you mean, Marriane."
+            "speaking": "I understand what you mean, Marianne."
           }
         ],
         "fallouts": [
@@ -231,7 +231,7 @@
       {
         "content": [
           {
-            "speaking": "It is totally fine to inquire, Marriane. I hope what Sarah said has made you feel safe about the flight."
+            "speaking": "It is totally fine to inquire, Marianne. I hope what Sarah said has made you feel safe about the flight."
           }
         ],
         "fallouts": [
@@ -262,7 +262,7 @@
   },
   "nResolution1": {
     "clause": "narrative",
-    "actor": "Marriane",
+    "actor": "Marianne",
     "content": [
       {
         "speaking": "Wow, that’s honestly a surprise to me. Were you adopted?"
@@ -280,7 +280,7 @@
   },
   "nResolution3": {
     "clause": "narrative",
-    "actor": "Marriane",
+    "actor": "Marianne",
     "content": [
       {
         "speaking": "Really? Well, if you’re truly American, why do you still need to wear that thing on your head?"
@@ -308,7 +308,7 @@
       {
         "content": [
           {
-            "speaking": "I apologize for this experience, Marriane, it must be very stressful. Do you mind if I offer you a change of seating?"
+            "speaking": "I apologize for this experience, Marianne, it must be very stressful. Do you mind if I offer you a change of seating?"
           }
         ],
         "fallouts": [
@@ -368,7 +368,7 @@
     ],
     "content": [
       {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who comes to the defense of Sarah. Throughout the game, though, your choices caused Sarah to feel apologetic for her place on the plane, and caused Marriane’s misconceptions to be fulfilled and defended."
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who comes to the defense of Sarah. Throughout the game, though, your choices caused Sarah to feel apologetic for her place on the plane, and caused Marianne’s misconceptions to be fulfilled and defended."
       }
     ]
   },
@@ -388,7 +388,7 @@
     ],
     "content": [
       {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah only for very overt misconceptions. Throughout the game, your choices sometimes maintained your defense of Sarah, but other times were complacent in Marriane’s misconceptions. "
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah only for very overt misconceptions. Throughout the game, your choices sometimes maintained your defense of Sarah, but other times were complacent in Marianne’s misconceptions. "
       }
     ]
   },
@@ -408,7 +408,7 @@
     ],
     "content": [
       {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions."
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marianne’s misconceptions."
       }
     ]
   }
