@@ -83,7 +83,7 @@
     "tests": [
       {
         "type": "featureLabel",
-        "feature": "assertiveness",
+        "feature": "Assertiveness",
         "actor": "You",
         "label": "assertive"
       }
@@ -334,10 +334,22 @@
       }
     ],
     "categoryPrototypes": {
-      
+      "Ally": {
+        "assertiveness": 70
+      },
+      "Lackey": {
+        "assertiveness": 20
+      }
     },
     "abstractCategories": {
-
+      "Ingroup": {
+        "wildcard": "I",
+        "concreteCategory": "Lackey"
+      },
+      "Outgroup": {
+        "wildcard": "I",
+        "concreteCategory": "Ally"
+      }
     },
     "actors": {
       "Marriane": {
