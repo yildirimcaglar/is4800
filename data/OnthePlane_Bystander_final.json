@@ -1,9 +1,13 @@
 {
   "ChimeriaSetup": {
     "narrativeData": [
+      "topic",
+      "topic-type",
       {
         "narrativeDatum": "FocusTopic"
-      }
+      },
+      "theme",
+      "themeDescription"
     ],
     "categoryFeatures": [
       {
