@@ -129,6 +129,7 @@
         "dInitial1",
         "nTransition1",
         "eAsking1",
+        "dAsking1",
         "membershipEvaluation",
         "nTransition2",
         "eLocation1",
@@ -247,6 +248,7 @@
     ]
   },
   "dAsking1": {
+    "FocusTopic": "Asking",
     "clause": "decision",
     "actor": "You",
     "content": [
@@ -313,6 +315,81 @@
             "feature": "Curiosity",
             "delta": -10
           }
+        ]
+      }
+    ]
+  },
+  "meAsking1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, it was. Thanks for your support. I am okay. It happens on most of my flights."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Asking"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meAsking2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "No, but I look suspicious to them, I guess."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Asking"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meAsking3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Yes, you get used to it after a while."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Asking"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Cautious",
+        "range": [
+          "0",
+          "15"
         ]
       }
     ]
