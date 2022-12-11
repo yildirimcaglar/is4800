@@ -2,7 +2,7 @@
   "ChimeriaSetup": {
     "narrativeData": [
       {
-        "narrativeDatum": "FocusTopic"
+        "narrativeDatum": "TopicName"
       }
     ],
     "categoryFeatures": [
@@ -259,7 +259,7 @@
     "clause": "narrative",
     "content": [
       {
-        "speaking": "\nIt is actually a hijab, not a random thing on my head. I don’t think it should dictate how American I am."
+        "speaking": "It is actually a hijab, not a random thing on my head. I don’t think it should dictate how American I am."
       }
     ]
   },
@@ -311,6 +311,5 @@
         ]
       }
     ]
-  }
-  
+  }  
 }
