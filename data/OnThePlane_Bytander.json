@@ -83,7 +83,7 @@
     "tests": [
       {
         "type": "featureLabel",
-        "feature": "Assertiveness",
+        "feature": "assertiveness",
         "actor": "You",
         "label": "assertive"
       }
