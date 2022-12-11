@@ -146,5 +146,62 @@
         "speaking": "After witnessing this woman get pulled to the side for extra screening, you think to yourself the following:"
       }
     ]
+  },
+  "dInitial1": {
+    "actor": "Marianne",
+    "clause": "decision",
+    "choices": [
+      {
+        "content": [
+          {
+            "thinking": "I’m concerned for my safety. I think it was a good idea just to make sure"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "Marianne",
+            "feature": "Aggressiveness",
+            "delta": "+10"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "thinking": "I didn't have to do an extra screening. I wonder why they pulled her over."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "Marianne",
+            "feature": "Awareness",
+            "delta": "-10"
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "Marianne",
+            "feature": "Curiosity",
+            "delta": "10"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "thinking": "It was not necessary for them to do that. I feel bad that she has to go through this."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "Marianne",
+            "feature": "Aggressiveness",
+            "delta": "-10"
+          }
+        ]
+      }
+    ]
   }
 }
