@@ -139,13 +139,10 @@
         "ePrayer1",
         "dPrayer1",
         "membershipEvaluation",
-        "eFood1",
-        "nFood1",
-        "dFood1",
-        "membershipEvaluation",
         "eHijab1",
         "dHijab1",
-        "membershipEvaluation"
+        "membershipEvaluation",
+        "conclusion"
       ]
     }
   },
@@ -875,6 +872,166 @@
           "0",
           "15"
         ]
+      }
+    ]
+  },
+  "cInquisitive1": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have an inquisitive attitude toward Sarah.\nYou demonstrated appropriate knowledge of Islamic culture yet still continued to ask questions."
+      }
+    ]
+  },
+  "cDisrespectful2": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a disrespectful attitude toward Sarah.\nWhile curious to learn more, your lack of knowledge and assertiveness still came off as rude "
+      }
+    ]
+  },
+  "cXenophobic3": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Xenophobic",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a xenophobic attitude toward Sarah.\nYour lack of awareness and curiosity revealed underlying prejudices you hold toward those of different backgrounds\n"
+      }
+    ]
+  },
+  "cBigoted4": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Bigoted",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a bigoted attitude toward Sarah.\nDespite your knowledge of Islamic culture, your responses showed active mistreatment and disdain toward Sarah."
+      }
+    ]
+  },
+  "cComplacent5": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Complacent",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a complacent attitude toward Sarah.\nYou opted to maintain the status quo, neither insulting nor supporting Sarah through her experience. \n"
+      }
+    ]
+  },
+  "cOpen6": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Open",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have an open attitude toward Sarah.\nDespite a lack of knowledge of Islamic culture, your choices showcased a willingness to learn more"
+      }
+    ]
+  },
+  "cCautious7": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Cautious",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a cautious attitude toward Sarah.\nYou chose not to question Sarah further despite knowing what she was going through possibly in an attempt not to upset her further."
+      }
+    ]
+  },
+  "cHospitable8": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "actor": "Marianne",
+        "category": "Hospitable",
+        "range": [
+          "50",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, Marianne started off as someone who is moderate in assertiveness, curiosity, and awareness toward people from different backgrounds, cultures, and beliefs. \nHowever, your choices throughout the game led Marianne to have a hospitable attitude toward Sarah.\nYou showcased a desire to learn more about Sarah, help her through her situation, and did so in a way that was respectful."
       }
     ]
   }
