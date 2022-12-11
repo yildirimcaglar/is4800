@@ -2,7 +2,7 @@
   "ChimeriaSetup": {
     "narrativeData": [
       {
-        "narrativeDatum": "TopicName"
+        "narrativeDatum": "FocusTopic"
       }
     ],
     "categoryFeatures": [
@@ -68,7 +68,8 @@
       "nResolution2",
       "nResolution3",
       "nResolution4",
-      "dResolution"
+      "dResolution",
+      "conclusion"
     ]
   },
   "orient1": {
@@ -76,7 +77,7 @@
     "clause": "orientation",
     "content": [
       {
-        "narrating": "You are a flight attendant on a plane. You just finished training and are beginning to do rounds during flights alone. Whilst walking through the plane, you notice a woman inquiring about a hijabi woman across the aisle from her. You decide to listen further."
+        "speaking": "You are a flight attendant on a plane. You just finished training and are beginning to do rounds during flights alone. Whilst walking through the plane, you notice a woman inquiring about a hijabi woman across the aisle from her. You decide to listen further."
       }
     ]
   },
@@ -259,7 +260,7 @@
     "clause": "narrative",
     "content": [
       {
-        "speaking": "It is actually a hijab, not a random thing on my head. I don’t think it should dictate how American I am."
+        "speaking": "\nIt is actually a hijab, not a random thing on my head. I don’t think it should dictate how American I am."
       }
     ]
   },
@@ -311,5 +312,440 @@
         ]
       }
     ]
-  }  
+  },
+  "neConclusion1": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          "0",
+          "35"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who comes to the defense of Sarah. Throughout the game, though, your choices caused Sarah to feel apologetic for her place on the plane, and caused Marriane’s misconceptions to be fulfilled and defended."
+      }
+    ]
+  },
+  "neConclusion2": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          "35",
+          "65"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah only for very overt misconceptions. Throughout the game, your choices sometimes maintained your defense of Sarah, but other times were complacent in Marriane’s misconceptions. "
+      }
+    ]
+  },
+  "neConclusion3": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          "65",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions."
+      }
+    ]
+  }
+}{
+  "ChimeriaSetup": {
+    "narrativeData": [
+      {
+        "narrativeDatum": "FocusTopic"
+      }
+    ],
+    "categoryFeatures": [
+      {
+        "rangeFeature": "assertiveness",
+        "labels": {
+          "passive": [
+            0,
+            35
+          ],
+          "neutral": [
+            35,
+            65
+          ],
+          "assertive": [
+            65,
+            100
+          ]
+        }
+      }
+    ],
+    "categoryPrototypes": {
+      "Ally": {
+        "assertiveness": 70
+      },
+      "Lackey": {
+        "assertiveness": 20
+      }
+    },
+    "abstractCategories": {
+      "Ingroup": {
+        "concreteCategory": "Lackey"
+      },
+      "Outgroup": {
+        "concreteCategory": "Ally"
+      }
+    },
+    "actors": {
+      "Marriane": {
+        "assertiveness": "50"
+      },
+      "You": {
+        "player": "true",
+        "assertiveness": "50"
+      },
+      "Sarah": {
+        "assertiveness": "50"
+      }
+    },
+    "substitutes": {
+
+    },
+    "narrativeStructure": [
+      "orient1",
+      "nIntro1",
+      "nIntro2",
+      "dIntro",
+      "nEscalation1",
+      "nEscalation2",
+      "nEscalation3",
+      "dEscalation",
+      "nResolution1",
+      "nResolution2",
+      "nResolution3",
+      "nResolution4",
+      "dResolution",
+      "conclusion"
+    ]
+  },
+  "orient1": {
+    "actor": "narrator",
+    "clause": "orientation",
+    "content": [
+      {
+        "speaking": "You are a flight attendant on a plane. You just finished training and are beginning to do rounds during flights alone. Whilst walking through the plane, you notice a woman inquiring about a hijabi woman across the aisle from her. You decide to listen further."
+      }
+    ]
+  },
+  "nIntro1": {
+    "actor": "You",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "Hello! I hope you are both enjoying your flight. Is there anything I can do for you?"
+      }
+    ]
+  },
+  "nIntro2": {
+    "actor": "Marriane",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "Yes actually, I’m so glad you finally stopped in. I’m honestly quite concerned about the safety of this flight. Are we sure everyone is being properly checked before they enter the plane?"
+      }
+    ]
+  },
+  "dIntro": {
+    "actor": "You",
+    "clause": "decision",
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I’m so sorry this is worrying you. Let me see what I can do to make you feel more comfortable. "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "-10"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I totally understand what you mean, but I can assure you that this flight is safe. "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "-5"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Everyone has been screened in proper accordance."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "nEscalation1": {
+    "actor": "Sarah",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "Excuse me ma’am, but are you concerned about me?"
+      }
+    ]
+  },
+  "nEscalation2": {
+    "actor": "Marriane",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "I apologize, but you have to understand. I was born and raised in the United States, you have to understand."
+      }
+    ]
+  },
+  "nEscalation3": {
+    "actor": "Sarah",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "Actually, I cannot understand. I was born here as well, and lived in Indiana my entire life."
+      }
+    ]
+  },
+  "dEscalation": {
+    "actor": "You",
+    "clause": "decision",
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I understand what you mean, Marriane."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "-10"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "It is totally fine to inquire, Marriane. I hope what Sarah said has made you feel safe about the flight."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "-5"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "You should not have to answer this, Sarah, is there anything I can do to make up for this experience? "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "nResolution1": {
+    "actor": "Marriane",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "Wow, that’s honestly a surprise to me. Were you adopted?"
+      }
+    ]
+  },
+  "nResolution2": {
+    "actor": "Sarah",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "I don’t feel comfortable answering that question to a stranger. But, if I must, my parents were both born here as well."
+      }
+    ]
+  },
+  "nResolution3": {
+    "actor": "Marriane",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "Really? Well, if you’re truly American, why do you still need to wear that thing on your head?"
+      }
+    ]
+  },
+  "nResolution4": {
+    "actor": "Sarah",
+    "clause": "narrative",
+    "content": [
+      {
+        "speaking": "\nIt is actually a hijab, not a random thing on my head. I don’t think it should dictate how American I am."
+      }
+    ]
+  },
+  "dResolution": {
+    "actor": "You",
+    "clause": "decision",
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I apologize for this experience, Marriane, it must be very stressful. Do you mind if I offer you a change of seating?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "-10"
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I can see this is a stressful situation for both of you. I can ensure procedures make this flight experience as safe and comfortable as possible."
+          }
+        ],
+        "fallouts": {
+          "type": "incrementActorFeatureValue",
+          "actor": "You",
+          "feature": "assertiveness",
+          "delta": "-5"
+        }
+      },
+      {
+        "content": [
+          {
+            "speaking": "I apologize for this experience, Sarah. You shouldn’t have to endure these questions about yourself. Do you mind if I offer you a change of seating? "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "neConclusion1": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          "0",
+          "35"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who comes to the defense of Sarah. Throughout the game, though, your choices caused Sarah to feel apologetic for her place on the plane, and caused Marriane’s misconceptions to be fulfilled and defended."
+      }
+    ]
+  },
+  "neConclusion2": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          "35",
+          "65"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah only for very overt misconceptions. Throughout the game, your choices sometimes maintained your defense of Sarah, but other times were complacent in Marriane’s misconceptions. "
+      }
+    ]
+  },
+  "neConclusion3": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          "65",
+          "100"
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions."
+      }
+    ]
+  }
 }
