@@ -393,5 +393,161 @@
         ]
       }
     ]
+  },
+  "nTransition2": {
+    "clause": "narrative",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "When it is your turn for screening, the process goes smoothly and you are quickly allowed to board your flight. "
+      }
+    ]
+  },
+  "eAsking2": {
+    "clause": "entrance",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "To pass the time you decide to ask her about where she’s from. "
+      }
+    ]
+  },
+  "dLocation": {
+    "FocusTopic": "Location",
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "4 hours isn’t too bad. Are you from New Jersey? "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Curiosity",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I know International flights must take ages. How bad was the layover time?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "You should be used to long flights right? How long does it take to travel from the Middle East?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": 10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      }
+    ]
+  },
+  "meLocation1": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I am! Just coming back from a family visit."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Location"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Inquisitive",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meLocation2": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "It must be long, but I am not transferring from an international flight."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Location"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Disrespectful",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
+  },
+  "meLocation3": {
+    "clause": "membershipEvaluation",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I do not know. I am from New Jersey. So, I did not travel from there."
+      }
+    ],
+    "tests": [
+      {
+        "type": "narrativeDatum",
+        "name": "FocusTopic",
+        "value": "Location"
+      },
+      {
+        "type": "categoryMembershipDelta",
+        "actor": "Marianne",
+        "category": "Xenophobic",
+        "range": [
+          "0",
+          "15"
+        ]
+      }
+    ]
   }
 }
