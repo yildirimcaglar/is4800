@@ -1,4 +1,84 @@
 {
+  "ChimeriaSetup": {
+    "narrativeData": [
+      {
+        "narrativeDatum": "FocusTopic",
+        "wildcard": "T"
+      }
+    ],
+    "categoryFeatures": [
+      {
+        "wildcard": "a",
+        "rangeFeature": "assertiveness",
+        "labels": {
+          "passive": [
+            0,
+            30
+          ],
+          "neutral": [
+            30,
+            70
+          ],
+          "assertive": [
+            70,
+            100
+          ]
+        }
+      }
+    ],
+    "categoryPrototypes": {
+      "Ally": {
+        "assertiveness": 70
+      },
+      "Lackey": {
+        "assertiveness": 20
+      }
+    },
+    "abstractCategories": {
+      "Ingroup": {
+        "wildcard": "I",
+        "concreteCategory": "Lackey"
+      },
+      "Outgroup": {
+        "wildcard": "I",
+        "concreteCategory": "Ally"
+      }
+    },
+    "actors": {
+      "Marriane": {
+        "wildcard": "M",
+        "assertiveness": "50"
+      },
+      "You": {
+        "wildcard": "Y",
+        "player": "true",
+        "assertiveness": "50"
+      },
+      "Sarah": {
+        "wildcard": "A",
+        "assertiveness": "50"
+      }
+    },
+    "substitutes": {
+
+    },
+    "narrativeStructure": [
+      "orient1",
+      "nIntro1",
+      "nIntro2",
+      "dIntro",
+      "nEscalation1",
+      "nEscalation2",
+      "nEscalation3",
+      "dEscalation",
+      "nResolution1",
+      "nResolution2",
+      "nResolution3",
+      "nResolution4",
+      "dResolution",
+      "conclusion"
+    ]
+  },
   "orient1": {
     "actor": "narrator",
     "clause": "orientation",
@@ -306,86 +386,6 @@
       {
         "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions."
       }
-    ]
-  },
-  "ChimeriaSetup": {
-    "narrativeData": [
-      {
-        "narrativeDatum": "FocusTopic",
-        "wildcard": "T"
-      }
-    ],
-    "categoryFeatures": [
-      {
-        "wildcard": "a",
-        "rangeFeature": "assertiveness",
-        "labels": {
-          "passive": [
-            0,
-            30
-          ],
-          "neutral": [
-            30,
-            70
-          ],
-          "assertive": [
-            70,
-            100
-          ]
-        }
-      }
-    ],
-    "categoryPrototypes": {
-      "Ally": {
-        "assertiveness": 70
-      },
-      "Lackey": {
-        "assertiveness": 20
-      }
-    },
-    "abstractCategories": {
-      "Ingroup": {
-        "wildcard": "I",
-        "concreteCategory": "Lackey"
-      },
-      "Outgroup": {
-        "wildcard": "I",
-        "concreteCategory": "Ally"
-      }
-    },
-    "actors": {
-      "Marriane": {
-        "wildcard": "M",
-        "assertiveness": "50"
-      },
-      "You": {
-        "wildcard": "Y",
-        "player": "true",
-        "assertiveness": "50"
-      },
-      "Sarah": {
-        "wildcard": "A",
-        "assertiveness": "50"
-      }
-    },
-    "substitutes": {
-
-    },
-    "narrativeStructure": [
-      "orient1",
-      "nIntro1",
-      "nIntro2",
-      "dIntro",
-      "nEscalation1",
-      "nEscalation2",
-      "nEscalation3",
-      "dEscalation",
-      "nResolution1",
-      "nResolution2",
-      "nResolution3",
-      "nResolution4",
-      "dResolution",
-      "conclusion"
     ]
   }
 }
