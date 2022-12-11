@@ -160,14 +160,6 @@
   "nEscalation1": {
     "actor": "Sarah",
     "clause": "narrative",
-    "tests": [
-      {
-        "type": "featureLabel",
-        "feature": "assertiveness",
-        "actor": "You",
-        "label": "assertive"
-      }
-    ],
     "content": [
       {
         "speaking": "Excuse me ma’am, but are you concerned about me?"
