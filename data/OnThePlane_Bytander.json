@@ -63,7 +63,7 @@
       {
         "content": [
           {
-            "speaking": "As I stated before, everyone has been screened in proper accordance."
+            "speaking": "Everyone has been screened in proper accordance."
           }
         ],
         "fallouts": [
@@ -134,7 +134,7 @@
       {
         "content": [
           {
-            "speaking": "It is totally fine to inquire, Marriane. I hope what Sarah said has made you feel safe about\nthe flight."
+            "speaking": "It is totally fine to inquire, Marriane. I hope what Sarah said has made you feel safe about the flight."
           }
         ],
         "fallouts": [
@@ -334,11 +334,7 @@
       }
     ],
     "categoryPrototypes": {
-      "Multicultural": {
-        "RacialAwareness": 75,
-        "CulturalAppreciation": 80,
-        "Assertiveness": 70
-      }
+      
     },
     "abstractCategories": {
 
