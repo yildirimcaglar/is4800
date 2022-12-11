@@ -14,59 +14,89 @@
     ],
     "categoryFeatures": [
       {
-        "rangeFeature": "Aggressive-Cordial"
+        "rangeFeature": "Aggressiveness",
+        "labels": {
+          "congenial": [
+            0,
+            50
+          ],
+          "aggressive": [
+            50,
+            100
+          ]
+        }
       },
       {
-        "rangeFeature": "Curious-Indifferent"
+        "rangeFeature": "Curiosity",
+        "labels": {
+          "indifferent": [
+            0,
+            50
+          ],
+          "curious": [
+            50,
+            100
+          ]
+        }
       },
       {
-        "rangeFeature": "Aware-Oblivious"
+        "rangeFeature": "Awareness",
+        "labels": {
+          "oblivious": [
+            0,
+            50
+          ],
+          "aware": [
+            50,
+            100
+          ]
+        }
       }
     ],
     "categoryPrototypes": {
       "Inquisitive": {
-        "Aggressive-Cordial": "100",
-        "Curious-Indifferent": "100",
-        "Aware-Oblivious": "100"
+        "Aggressiveness": "100",
+        "Curiosity": "100",
+        "Awareness": "100"
       },
       "Disrespectful": {
-        "Aggressive-Cordial": "100",
-        "Curious-Indifferent": "100",
-        "Aware-Oblivious": "0"
+        "Aggressiveness": "100",
+        "Curiosity": "100",
+        "Awareness": "0"
       },
       "Xenophobic": {
-        "Aggressive-Cordial": "100",
-        "Curious-Indifferent": "0",
-        "Aware-Oblivious": "0"
+        "Aggressiveness": "100",
+        "Curiosity": "0",
+        "Awareness": "0"
       },
       "Bigoted": {
-        "Aggressive-Cordial": "100",
-        "Curious-Indifferent": "0",
-        "Aware-Oblivious": "100"
+        "Aggressiveness": "100",
+        "Curiosity": "0",
+        "Awareness": "100"
       },
       "Complacent": {
-        "Aggressive-Cordial": "0",
-        "Curious-Indifferent": "0",
-        "Aware-Oblivious": "0"
+        "Aggressiveness": "0",
+        "Curiosity": "0",
+        "Awareness": "0"
       },
       "Open": {
-        "Aggressive-Cordial": "0",
-        "Curious-Indifferent": "100",
-        "Aware-Oblivious": "0"
+        "Aggressiveness": "0",
+        "Curiosity": "100",
+        "Awareness": "0"
       },
       "Cautious": {
-        "Aggressive-Cordial": "0",
-        "Curious-Indifferent": "0",
-        "Aware-Oblivious": "100"
+        "Aggressiveness": "0",
+        "Curiosity": "0",
+        "Awareness": "100"
       },
       "Hospitable": {
-        "Aggressive-Cordial": "0",
-        "Curious-Indifferent": "100",
-        "Aware-Oblivious": "100"
+        "Aggressiveness": "0",
+        "Curiosity": "100",
+        "Awareness": "100"
       }
     },
     "abstractCategories": {
-"Ingroup": {
+      "Ingroup": {
         "wildcard": "X",
         "concreteCategory": "Cautious"
       },
@@ -79,15 +109,15 @@
       "Marianne": {
         "wildcard": "M",
         "player": "true",
-        "Aggressive-Cordial": "50",
-        "Curious-Indifferent": "50",
-        "Aware-Oblivious": "50"
+        "Aggressiveness": "50",
+        "Curiosity": "50",
+        "Awareness": "50"
       },
       "Sarah": {
         "wildcard": "S",
-        "Aggressive-Cordial": "50",
-        "Curious-Indifferent": "50",
-        "Aware-Oblivious": "50"
+        "Aggressiveness": "50",
+        "Curiosity": "50",
+        "Awareness": "50"
       }
     },
     "substitutes": {
@@ -97,17 +127,7 @@
       "main": [
         "orient1",
         "clause0",
-        "clause1",
-        "clause2",
-        "clause3_d1",
-        "membershipEvaluation",
-        "naturalizationEvaluation",
-        "clause4",
-        "clause5",
-        "clause6",
-        "clause7_d2",
-        "conclusion",
-        "coda"
+        "dInitial1"
       ]
     }
   },
@@ -144,7 +164,7 @@
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
-            "feature": "Aggressive-Cordial",
+            "feature": "Aggressiveness",
             "delta": 10
           }
         ]
@@ -159,13 +179,13 @@
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
-            "feature": "Aware-Oblivious",
+            "feature": "Awareness",
             "delta": "-10"
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
-            "feature": "Curious-Indifferent",
+            "feature": "Curiosity",
             "delta": "10"
           }
         ]
@@ -180,7 +200,7 @@
           {
             "type": "incrementActorFeatureValue",
             "actor": "Marianne",
-            "feature": "Aggressive-Cordial",
+            "feature": "Aggressiveness",
             "delta": "-10"
           }
         ]
