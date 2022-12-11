@@ -77,21 +77,11 @@
     },
     "narrativeStructure": {
       "main": [
-        "nTransition1",
-        "eAsking1",
-        "dAsking1",
-        "membershipEvaluation",
-        "eLocation1",
-        "dLocation",
-        "membershipEvaluation",
-        "nTransition3",
-        "ePrayer1",
-        "dPrayer1",
-        "membershipEvaluation",
-        "eHijab1",
-        "dHijab1",
-        "membershipEvaluation",
-        "conclusion"
+      "orient1",
+      "nIntro1",
+      "nIntro2",
+      "dIntro",
+      "nEscalation1"
       ]
     }
   },
