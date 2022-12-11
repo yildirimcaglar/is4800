@@ -68,8 +68,7 @@
       "nResolution2",
       "nResolution3",
       "nResolution4",
-      "dResolution",
-      "conclusion"
+      "dResolution"
     ]
   },
   "orient1": {
@@ -312,65 +311,6 @@
         ]
       }
     ]
-  },
-  "neConclusion1": {
-    "actor": "narrator",
-    "clause": "conclusion",
-    "tests": [
-      {
-        "type": "featureRange",
-        "actor": "You",
-        "feature": "assertiveness",
-        "range": [
-          "0",
-          "35"
-        ]
-      }
-    ],
-    "content": [
-      {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who comes to the defense of Sarah. Throughout the game, though, your choices caused Sarah to feel apologetic for her place on the plane, and caused Marriane’s misconceptions to be fulfilled and defended."
-      }
-    ]
-  },
-  "neConclusion2": {
-    "actor": "narrator",
-    "clause": "conclusion",
-    "tests": [
-      {
-        "type": "featureRange",
-        "actor": "You",
-        "feature": "assertiveness",
-        "range": [
-          "35",
-          "65"
-        ]
-      }
-    ],
-    "content": [
-      {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah only for very overt misconceptions. Throughout the game, your choices sometimes maintained your defense of Sarah, but other times were complacent in Marriane’s misconceptions. "
-      }
-    ]
-  },
-  "neConclusion3": {
-    "actor": "narrator",
-    "clause": "conclusion",
-    "tests": [
-      {
-        "type": "featureRange",
-        "actor": "You",
-        "feature": "assertiveness",
-        "range": [
-          "65",
-          "100"
-        ]
-      }
-    ],
-    "content": [
-      {
-        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marriane’s misconceptions."
-      }
-    ]
   }
+  
 }
