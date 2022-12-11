@@ -66,7 +66,14 @@
       }
     },
     "abstractCategories": {
-
+"Ingroup": {
+        "wildcard": "X",
+        "concreteCategory": "Cautious"
+      },
+      "Outgroup": {
+        "wildcard": "O",
+        "concreteCategory": "Open"
+      }
     },
     "actors": {
       "Marianne": {
