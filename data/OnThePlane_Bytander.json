@@ -2,25 +2,23 @@
   "ChimeriaSetup": {
     "narrativeData": [
       {
-        "narrativeDatum": "FocusTopic",
-        "wildcard": "T"
+        "narrativeDatum": "FocusTopic"
       }
     ],
     "categoryFeatures": [
       {
-        "wildcard": "a",
         "rangeFeature": "assertiveness",
         "labels": {
           "passive": [
             0,
-            30
+            35
           ],
           "neutral": [
-            30,
-            70
+            35,
+            65
           ],
           "assertive": [
-            70,
+            65,
             100
           ]
         }
@@ -36,26 +34,21 @@
     },
     "abstractCategories": {
       "Ingroup": {
-        "wildcard": "I",
         "concreteCategory": "Lackey"
       },
       "Outgroup": {
-        "wildcard": "I",
         "concreteCategory": "Ally"
       }
     },
     "actors": {
       "Marriane": {
-        "wildcard": "M",
         "assertiveness": "50"
       },
       "You": {
-        "wildcard": "Y",
         "player": "true",
         "assertiveness": "50"
       },
       "Sarah": {
-        "wildcard": "A",
         "assertiveness": "50"
       }
     },
