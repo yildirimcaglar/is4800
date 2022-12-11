@@ -95,8 +95,8 @@
     }
   },
   "orient1": {
-    "clause": "narrative",
-    "actor": "You",
+    "clause": "orientation",
+    "actor": "narrator",
     "content": [
       {
         "speaking": "You are a flight attendant on a plane. You just finished training and are beginning to do rounds during flights alone. Whilst walking through the plane, you notice a woman inquiring about a hijabi woman across the aisle from her. You decide to listen further."
