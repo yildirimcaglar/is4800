@@ -238,11 +238,82 @@
     ]
   },
   "eAsking1": {
-    "clause": "enrance",
+    "clause": "entrance",
     "actor": "narrator",
     "content": [
       {
         "speaking": "You enter the plane and sit at your designated seat.  To your surprise, you see the woman from earlier."
+      }
+    ]
+  },
+  "dAsking1": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "What they did back there was unfair. Are you ok?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Aggressiveness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "How come they pulled you to the side? Did you forget to take off your watch? Happens to me all the time."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Awareness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I saw what happened earlier. Is this something that happens to you often?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Curiosity",
+            "delta": 10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "It's none of my business and she probably doesn’t want to talk about it"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "Curiosity",
+            "delta": -10
+          }
+        ]
       }
     ]
   }
