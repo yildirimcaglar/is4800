@@ -41,10 +41,10 @@
     ],
     "categoryPrototypes": {
       "Ally": {
-        "assertiveness": "70"
+        "assertiveness": 70
       },
       "Lackey": {
-        "assertiveness": "20"
+        "assertiveness": 20
       }
     },
     "abstractCategories": {
@@ -61,15 +61,15 @@
       "You": {
         "wildcard": "Y",
         "player": "true",
-        "assertiveness": "50"
+        "assertiveness": 50
       },
       "Sarah": {
         "wildcard": "S",
-        "assertiveness": "50"
+        "assertiveness": 50
       },
       "Marianne": {
         "wildcard": "M",
-        "assertiveness": "50"
+        "assertiveness": 50
       }
     },
     "substitutes": {
@@ -361,8 +361,8 @@
         "actor": "You",
         "feature": "assertiveness",
         "range": [
-          "0",
-          "30"
+          0,
+          30
         ]
       }
     ],
@@ -381,8 +381,8 @@
         "actor": "You",
         "feature": "assertiveness",
         "range": [
-          "30",
-          "70"
+          30,
+          70
         ]
       }
     ],
@@ -401,8 +401,8 @@
         "actor": "You",
         "feature": "assertiveness",
         "range": [
-          "70",
-          "100"
+          70,
+          100
         ]
       }
     ],
