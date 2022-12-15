@@ -142,7 +142,7 @@
         "entrance",
         "clause28",
         "clause29",
-        "conclusion",
+        "entrance",
         "coda"
       ]
     }
@@ -1143,7 +1143,7 @@
     "currentState": "clause30"
   },
   "clause30a": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "Marianne",
     "content": [
       {
@@ -1175,7 +1175,7 @@
     "currentState": "noninteractive"
   },
   "clause30b": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "Marianne",
     "content": [
       {
@@ -1207,7 +1207,7 @@
     "currentState": "noninteractive"
   },
   "clause30c": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "Marianne",
     "content": [
       {
@@ -1239,7 +1239,7 @@
     "currentState": "noninteractive"
   },
   "clause30d": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "Marianne",
     "content": [
       {
@@ -1271,7 +1271,7 @@
     "currentState": "noninteractive"
   },
   "clause30e": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "Marianne",
     "content": [
       {
@@ -1303,7 +1303,7 @@
     "currentState": "noninteractive"
   },
   "clause30f": {
-    "clause": "narrative",
+    "clause": "entrance",
     "actor": "Marianne",
     "content": [
       {
