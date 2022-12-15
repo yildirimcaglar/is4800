@@ -1139,10 +1139,11 @@
       {
         "expressing": "smiling"
       }
-    ]
+    ],
+    "currentState": "clause30"
   },
   "clause30a": {
-    "clause": "conclusion",
+    "clause": "narrative",
     "actor": "Marianne",
     "content": [
       {
@@ -1164,11 +1165,17 @@
         "category": "Ingroup",
         "direction": "increasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause30"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause30b": {
-    "clause": "conclusion",
+    "clause": "narrative",
     "actor": "Marianne",
     "content": [
       {
@@ -1190,11 +1197,17 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause30"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause30c": {
-    "clause": "conclusion",
+    "clause": "narrative",
     "actor": "Marianne",
     "content": [
       {
@@ -1216,11 +1229,17 @@
         "category": "Ingroup",
         "direction": "fluctuating",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause30"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause30d": {
-    "clause": "conclusion",
+    "clause": "narrative",
     "actor": "Marianne",
     "content": [
       {
@@ -1242,11 +1261,17 @@
         "category": "Ingroup",
         "direction": "increasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause30"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause30e": {
-    "clause": "conclusion",
+    "clause": "narrative",
     "actor": "Marianne",
     "content": [
       {
@@ -1268,11 +1293,17 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause30"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "clause30f": {
-    "clause": "conclusion",
+    "clause": "narrative",
     "actor": "Marianne",
     "content": [
       {
@@ -1294,8 +1325,14 @@
         "category": "Ingroup",
         "direction": "fluctuating",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "clause30"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "coda1a": {
     "clause": "coda",
