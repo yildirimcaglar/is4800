@@ -1335,7 +1335,7 @@
     "currentState": "coda1"
   },
   "coda1a": {
-    "clause": "coda",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1397,7 +1397,7 @@
     ]
   },
   "coda1c": {
-    "clause": "coda",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1428,7 +1428,7 @@
     ]
   },
   "coda1d": {
-    "clause": "coda",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1459,7 +1459,7 @@
     ]
   },
   "coda1e": {
-    "clause": "coda",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1490,7 +1490,7 @@
     ]
   },
   "coda1f": {
-    "clause": "coda",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
