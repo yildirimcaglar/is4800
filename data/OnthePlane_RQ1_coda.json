@@ -1357,11 +1357,6 @@
         "category": "Ingroup",
         "direction": "increasing",
         "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "currentState",
-        "value": "coda1"
       }
     ],
     "currentState": "noninteractive"
@@ -1389,11 +1384,6 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "currentState",
-        "value": "coda1"
       }
     ],
     "currentState": "noninteractive"
@@ -1421,11 +1411,6 @@
         "category": "Ingroup",
         "direction": "fluctuating",
         "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "currentState",
-        "value": "coda1"
       }
     ],
     "currentState": "noninteractive"
@@ -1453,11 +1438,6 @@
         "category": "Ingroup",
         "direction": "increasing",
         "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "currentState",
-        "value": "coda1"
       }
     ],
     "currentState": "noninteractive"
@@ -1485,11 +1465,6 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "currentState",
-        "value": "coda1"
       }
     ],
     "currentState": "noninteractive"
@@ -1517,11 +1492,6 @@
         "category": "Ingroup",
         "direction": "fluctuating",
         "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "currentState",
-        "value": "coda1"
       }
     ],
     "currentState": "noninteractive"
