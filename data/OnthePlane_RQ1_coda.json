@@ -144,7 +144,7 @@
         "clause29",
         "entrance",
         "entrance",
-        "orient1"
+        "conclusion"
       ]
     }
   },
@@ -1364,7 +1364,8 @@
         "name": "currentState",
         "value": "coda1"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "coda1b": {
     "clause": "entrance",
@@ -1395,7 +1396,8 @@
         "name": "currentState",
         "value": "coda1"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "coda1c": {
     "clause": "entrance",
@@ -1426,7 +1428,8 @@
         "name": "currentState",
         "value": "coda1"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "coda1d": {
     "clause": "entrance",
@@ -1457,7 +1460,8 @@
         "name": "currentState",
         "value": "coda1"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "coda1e": {
     "clause": "entrance",
@@ -1488,7 +1492,8 @@
         "name": "currentState",
         "value": "coda1"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
   },
   "coda1f": {
     "clause": "entrance",
@@ -1519,7 +1524,18 @@
         "name": "currentState",
         "value": "coda1"
       }
-    ]
+    ],
+    "currentState": "noninteractive"
+  },
+  "conclusion": {
+    "clause": "conclusion",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "End of the game..."
+      }
+    ],
+    "currentState": "noninteractive"
   },
   "naturalization1a.1": {
     "clause": "naturalizationEvaluation",
