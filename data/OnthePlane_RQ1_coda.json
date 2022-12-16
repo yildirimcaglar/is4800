@@ -143,8 +143,7 @@
         "clause28",
         "clause29",
         "entrance",
-        "entrance",
-        "conclusion"
+        "coda"
       ]
     }
   },
@@ -1173,7 +1172,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "coda1"
+    "currentState": "noninteractive"
   },
   "clause30b": {
     "clause": "entrance",
@@ -1205,7 +1204,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "coda1"
+    "currentState": "noninteractive"
   },
   "clause30c": {
     "clause": "entrance",
@@ -1237,7 +1236,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "coda1"
+    "currentState": "noninteractive"
   },
   "clause30d": {
     "clause": "entrance",
@@ -1269,7 +1268,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "coda1"
+    "currentState": "noninteractive"
   },
   "clause30e": {
     "clause": "entrance",
@@ -1301,7 +1300,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "coda1"
+    "currentState": "noninteractive"
   },
   "clause30f": {
     "clause": "entrance",
@@ -1333,10 +1332,10 @@
         "value": "clause30"
       }
     ],
-    "currentState": "coda1"
+    "currentState": "noninteractive"
   },
   "coda1a": {
-    "clause": "entrance",
+    "clause": "coda",
     "actor": "You",
     "content": [
       {
@@ -1368,7 +1367,7 @@
     "currentState": "noninteractive"
   },
   "coda1b": {
-    "clause": "entrance",
+    "clause": "coda",
     "actor": "You",
     "content": [
       {
@@ -1400,7 +1399,7 @@
     "currentState": "noninteractive"
   },
   "coda1c": {
-    "clause": "entrance",
+    "clause": "coda",
     "actor": "You",
     "content": [
       {
@@ -1432,7 +1431,7 @@
     "currentState": "noninteractive"
   },
   "coda1d": {
-    "clause": "entrance",
+    "clause": "coda",
     "actor": "You",
     "content": [
       {
@@ -1464,7 +1463,7 @@
     "currentState": "noninteractive"
   },
   "coda1e": {
-    "clause": "entrance",
+    "clause": "coda",
     "actor": "You",
     "content": [
       {
@@ -1496,7 +1495,7 @@
     "currentState": "noninteractive"
   },
   "coda1f": {
-    "clause": "entrance",
+    "clause": "coda",
     "actor": "You",
     "content": [
       {
@@ -1523,16 +1522,6 @@
         "type": "narrativeDatum",
         "name": "currentState",
         "value": "coda1"
-      }
-    ],
-    "currentState": "noninteractive"
-  },
-  "conclusion": {
-    "clause": "conclusion",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "End of the game..."
       }
     ],
     "currentState": "noninteractive"
