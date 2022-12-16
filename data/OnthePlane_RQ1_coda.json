@@ -143,7 +143,7 @@
         "clause28",
         "clause29",
         "entrance",
-        "coda"
+        "entrance"
       ]
     }
   },
@@ -152,7 +152,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are just looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at them as they settled in."
+        "narrating": "Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are just looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at them as she settled in."
       }
     ],
     "currentState": "noninteractive"
@@ -1172,7 +1172,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda1"
   },
   "clause30b": {
     "clause": "entrance",
@@ -1204,7 +1204,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda1"
   },
   "clause30c": {
     "clause": "entrance",
@@ -1236,7 +1236,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda1"
   },
   "clause30d": {
     "clause": "entrance",
@@ -1268,7 +1268,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda1"
   },
   "clause30e": {
     "clause": "entrance",
@@ -1300,7 +1300,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda1"
   },
   "clause30f": {
     "clause": "entrance",
@@ -1332,7 +1332,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda1"
   },
   "coda1a": {
     "clause": "coda",
@@ -1357,11 +1357,16 @@
         "category": "Ingroup",
         "direction": "increasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda1"
       }
     ]
   },
   "coda1b": {
-    "clause": "coda",
+    "clause": "entrance",
     "actor": "You",
     "content": [
       {
@@ -1383,6 +1388,11 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda1"
       }
     ]
   },
@@ -1409,6 +1419,11 @@
         "category": "Ingroup",
         "direction": "fluctuating",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda1"
       }
     ]
   },
@@ -1435,6 +1450,11 @@
         "category": "Ingroup",
         "direction": "increasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda1"
       }
     ]
   },
@@ -1461,6 +1481,11 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda1"
       }
     ]
   },
@@ -1487,6 +1512,11 @@
         "category": "Ingroup",
         "direction": "fluctuating",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda1"
       }
     ]
   },
