@@ -1300,7 +1300,7 @@
         "value": "clause30"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "coda"
   },
   "clause30f": {
     "clause": "conclusion",
@@ -1465,6 +1465,11 @@
         "category": "Ingroup",
         "direction": "decreasing",
         "actor": "You"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "coda"
       }
     ],
     "currentState": "noninteractive"
