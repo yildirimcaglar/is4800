@@ -143,7 +143,8 @@
         "clause28",
         "clause29",
         "conclusion",
-        "coda"
+        "coda",
+        "questionnaire"
       ]
     }
   },
@@ -1924,5 +1925,15 @@
         "expressing": "frowning"
       }
     ]
+  },
+  "questionnaire": {
+    "clause": "orientation",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "You are done with the simulation. \n\nNow we would like to ask you a few questions.\n\nPlease proceed to the next step by clicking the > button."
+      }
+    ],
+    "currentState": "noninteractive"
   }
 }
