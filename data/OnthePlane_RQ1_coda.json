@@ -208,6 +208,12 @@
             "RacialAwareness": 20
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
@@ -227,6 +233,12 @@
             "category": "Ingroup",
             "actor": "You",
             "RacialAwareness": 10
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": 10
           },
           {
             "type": "incrementActorFeatureValue",
@@ -250,6 +262,12 @@
             "RacialAwareness": -10
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": -10
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
@@ -269,6 +287,12 @@
             "category": "Ingroup",
             "actor": "You",
             "RacialAwareness": -20
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": -20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -328,6 +352,12 @@
             "category": "Ingroup",
             "actor": "You",
             "RacialAwareness": 20
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -769,6 +799,12 @@
             "RacialAwareness": 20
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
@@ -889,6 +925,12 @@
             "category": "Ingroup",
             "actor": "You",
             "RacialAwareness": 20
+          },
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Ingroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
