@@ -205,13 +205,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -232,13 +232,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -259,13 +259,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -286,13 +286,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -351,13 +351,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -378,13 +378,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -405,13 +405,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -432,13 +432,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -814,13 +814,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -841,13 +841,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -868,13 +868,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -895,13 +895,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -960,13 +960,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -987,13 +987,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -1014,13 +1014,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 10
+            "RacialAwareness": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 10
+            "CulturalAppreciation": 20
           },
           {
             "type": "incrementActorFeatureValue",
@@ -1041,13 +1041,13 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": 40
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": 40
           },
           {
             "type": "incrementActorFeatureValue",
