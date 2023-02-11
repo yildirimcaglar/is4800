@@ -153,7 +153,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are just looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at her as she settled in."
+        "narrating": "!! Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are just looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at her as she settled in."
       }
     ],
     "currentState": "noninteractive"
@@ -202,22 +202,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 40
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
+            "delta": 40
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -12
           }
         ]
       },
@@ -229,22 +223,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "delta": 20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -6
           }
         ]
       },
@@ -256,22 +244,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "type": "moveActorRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "RacialAwareness": -20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 6
           }
         ]
       },
@@ -283,22 +265,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
             "RacialAwareness": 40
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
-          },
-          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 12
           }
         ]
       }
@@ -348,22 +324,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 40
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
+            "delta": 40
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -12
           }
         ]
       },
@@ -375,22 +345,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "delta": 20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -6
           }
         ]
       },
@@ -402,22 +366,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "type": "moveActorRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "RacialAwareness": -20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 6
           }
         ]
       },
@@ -429,22 +387,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
             "RacialAwareness": 40
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
-          },
-          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 12
           }
         ]
       }
@@ -811,22 +763,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 40
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
+            "delta": 40
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -12
           }
         ]
       },
@@ -838,22 +784,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "delta": 20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -6
           }
         ]
       },
@@ -865,22 +805,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "type": "moveActorRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "RacialAwareness": -20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 6
           }
         ]
       },
@@ -892,22 +826,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
             "RacialAwareness": 40
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
-          },
-          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 12
           }
         ]
       }
@@ -957,22 +885,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 40
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
+            "delta": 40
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -12
           }
         ]
       },
@@ -984,22 +906,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Ingroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "delta": 20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": -6
           }
         ]
       },
@@ -1011,22 +927,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "type": "moveActorRelativeToCategory",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
-          },
-          {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 20
+            "RacialAwareness": -20
           },
           {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 6
           }
         ]
       },
@@ -1038,22 +948,16 @@
         ],
         "fallouts": [
           {
-            "type": "moveActorFeatureRelativeToCategory",
+            "type": "moveActorRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
             "RacialAwareness": 40
           },
           {
-            "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
-            "actor": "You",
-            "CulturalAppreciation": 40
-          },
-          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
-            "delta": 0
+            "delta": 12
           }
         ]
       }
