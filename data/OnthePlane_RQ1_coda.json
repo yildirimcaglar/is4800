@@ -208,7 +208,7 @@
             "delta": 40
           },
           {
-            "type": "incrementActorFeatureValue",
+            "type": "IncrementActorFeatureValueFallout",
             "actor": "You",
             "feature": "Assertiveness",
             "delta": -12
