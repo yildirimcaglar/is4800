@@ -266,9 +266,9 @@
         "fallouts": [
           {
             "type": "moveActorRelativeToCategory",
-            "category": "Ingroup",
+            "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": -40
+            "RacialAwareness": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -388,9 +388,9 @@
         "fallouts": [
           {
             "type": "moveActorRelativeToCategory",
-            "category": "Ingroup",
+            "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": -40
+            "RacialAwareness": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -827,9 +827,9 @@
         "fallouts": [
           {
             "type": "moveActorRelativeToCategory",
-            "category": "Ingroup",
+            "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": -40
+            "RacialAwareness": 40
           },
           {
             "type": "incrementActorFeatureValue",
@@ -949,9 +949,9 @@
         "fallouts": [
           {
             "type": "moveActorRelativeToCategory",
-            "category": "Ingroup",
+            "category": "Outgroup",
             "actor": "You",
-            "RacialAwareness": -40
+            "RacialAwareness": 40
           },
           {
             "type": "incrementActorFeatureValue",
