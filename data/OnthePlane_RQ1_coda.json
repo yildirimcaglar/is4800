@@ -202,13 +202,13 @@
         ],
         "fallouts": [
           {
-            "type": "MoveActorRelativeToCategoryFallout",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
             "delta": 40
           },
           {
-            "type": "IncrementActorFeatureValueFallout",
+            "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "Assertiveness",
             "delta": -12
@@ -342,7 +342,7 @@
         ],
         "fallouts": [
           {
-            "type": "MoveActorRelativeToCategoryFallout",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
             "delta": 40
@@ -799,7 +799,7 @@
         ],
         "fallouts": [
           {
-            "type": "MoveActorRelativeToCategoryFallout",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
             "delta": 40
@@ -939,7 +939,7 @@
         ],
         "fallouts": [
           {
-            "type": "MoveActorRelativeToCategoryFallout",
+            "type": "moveActorRelativeToCategory",
             "category": "Ingroup",
             "actor": "You",
             "delta": 40
