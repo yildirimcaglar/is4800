@@ -2027,7 +2027,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "You are done with the simulation. \n\nNow we would like to ask you a few questions.\n\nPlease proceed to the next step by clicking the > button."
+        "narrating": "You are done with the simulation. \n\nNow we would like to ask you a few questions.\n\nPlease proceed to the next step by pressing the > button."
       }
     ],
     "currentState": "noninteractive"
