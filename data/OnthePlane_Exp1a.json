@@ -153,7 +153,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are just looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at her as she settled in."
+        "narrating": "Over the weekend, you visited friends in Chicago. You just took your seat, hoping that you can complete just one trip without anyone pointing you out for how you look. You are looking around as you listen to a boarding announcement. A woman just took the seat on the other side of the aisle, and you smiled at her as she settled in."
       }
     ],
     "currentState": "noninteractive"
@@ -979,7 +979,7 @@
       {
         "content": [
           {
-            "speaking": "That’s perhaps your impression of families in Indiana, but I have two boys, as well."
+            "speaking": "Perhaps, that’s your impression of families in Indiana, but I have two boys, as well."
           }
         ],
         "fallouts": [
@@ -1650,15 +1650,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          0.01,
-          100
+          -100,
+          0
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "decreasing",
+        "direction": "increasing",
         "actor": "You"
       }
     ],
@@ -1676,15 +1676,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          0.01,
-          100
+          -100,
+          0
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "decreasing",
+        "direction": "increasing",
         "actor": "You"
       }
     ],
@@ -1754,15 +1754,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          -100,
-          0
+          0.01,
+          100
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "increasing",
+        "direction": "decreasing",
         "actor": "You"
       }
     ],
@@ -1780,15 +1780,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          -100,
-          0
+          0.01,
+          100
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "increasing",
+        "direction": "decreasing",
         "actor": "You"
       }
     ],
