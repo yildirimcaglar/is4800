@@ -1590,7 +1590,7 @@
     ],
     "currentState": "noninteractive"
   },
-  "naturalization1a.1": {
+    "naturalization1a.1": {
     "clause": "naturalizationEvaluation",
     "actor": "You",
     "tests": [
@@ -1650,15 +1650,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          0.01,
-          100
+          -100,
+          0
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "decreasing",
+        "direction": "increasing",
         "actor": "You"
       }
     ],
@@ -1676,15 +1676,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          0.01,
-          100
+          -100,
+          0
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "decreasing",
+        "direction": "increasing",
         "actor": "You"
       }
     ],
@@ -1754,15 +1754,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          -100,
-          0
+          0.01,
+          100
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "increasing",
+        "direction": "decreasing",
         "actor": "You"
       }
     ],
@@ -1780,15 +1780,15 @@
         "type": "categoryMembershipDelta",
         "category": "Ingroup",
         "range": [
-          -100,
-          0
+          0.01,
+          100
         ],
         "actor": "You"
       },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
-        "direction": "increasing",
+        "direction": "decreasing",
         "actor": "You"
       }
     ],
