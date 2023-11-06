@@ -204,7 +204,8 @@
           }
         ]
       }
-    ]
+    ],
+    "currentState": "m_clause2"
   },
   "m_clause2a": {
     "clause": "entrance",
@@ -357,7 +358,8 @@
           }
         ]
       }
-    ]
+    ],
+    "currentState": "m_clause5"
   },
   "m_clause5a": {
     "clause": "entrance",
@@ -510,7 +512,8 @@
           }
         ]
       }
-    ]
+    ],
+    "currentState": "m_clause8"
   },
   "m_clause8a": {
     "clause": "entrance",
@@ -673,7 +676,8 @@
           }
         ]
       }
-    ]
+    ],
+    "currentState": "m_clause12"
   },
   "m_clause12a": {
     "clause": "entrance",
