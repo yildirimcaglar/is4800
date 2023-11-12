@@ -266,7 +266,7 @@
         "type": "featureLabel",
         "feature": "RacialAwareness",
         "actor": "Sarah",
-        "label": "neutral"
+        "label": "preparedForBias"
       },
       {
         "type": "narrativeDatum",
@@ -738,7 +738,7 @@
         "type": "featureLabel",
         "feature": "RacialAwareness",
         "actor": "Sarah",
-        "label": "neutral"
+        "label": "preparedForBias"
       },
       {
         "type": "narrativeDatum",
