@@ -1,0 +1,976 @@
+{
+  "ChimeriaSetup": {
+    "narrativeData": [
+      "topic",
+      "topic-type",
+      "passengerStatus",
+      {
+        "narrativeDatum": "currentState",
+        "wildcard": "p"
+      },
+      "theme",
+      "themeDescription",
+      "interactiveClause"
+    ],
+    "categoryFeatures": [
+      {
+        "rangeFeature": "Assertiveness",
+        "labels": {
+          "passive": [
+            0,
+            30
+          ],
+          "neutral": [
+            31,
+            70
+          ],
+          "assertive": [
+            71,
+            100
+          ]
+        }
+      },
+      {
+        "rangeFeature": "RacialAwareness",
+        "labels": {
+          "oblivious": [
+            0,
+            30
+          ],
+          "neutral": [
+            31,
+            70
+          ],
+          "preparedForBias": [
+            71,
+            100
+          ]
+        }
+      },
+      {
+        "rangeFeature": "CulturalAppreciation",
+        "labels": {
+          "bigotted": [
+            0,
+            30
+          ],
+          "neutral": [
+            31,
+            70
+          ],
+          "culturallyProud": [
+            71,
+            100
+          ]
+        }
+      }
+    ],
+    "categoryPrototypes": {
+      "Xenophobic": {
+        "RacialAwareness": 5,
+        "CulturalAppreciation": 5
+      },
+      "Multicultural": {
+        "RacialAwareness": 90,
+        "CulturalAppreciation": 90,
+        "Assertiveness": 90
+      }
+    },
+    "abstractCategories": {
+      "Ingroup": {
+        "wildcard": "X",
+        "concreteCategory": "Xenophobic"
+      },
+      "Outgroup": {
+        "wildcard": "O",
+        "concreteCategory": "Multicultural"
+      }
+    },
+    "actors": {
+      "You": {
+        "RacialAwareness": 5,
+        "CulturalAppreciation": 0,
+        "player": "true"
+      },
+      "Sarah": {
+        "Assertiveness": 50,
+        "RacialAwareness": 75,
+        "CulturalAppreciation": 70
+      }
+    },
+    "substitutes": {},
+    "narrativeStructure": {
+      "main": [
+        "m_clause0_o",
+        "m_clause1_d1",
+        "entrance",
+        "m_caluse3_n",
+        "m_clause4_d2",
+        "entrance",
+        "m_caluse6_n",
+        "clause5",
+        "clause6",
+        "clause7_d2",
+        "m_clause7_d3",
+        "entrance",
+        "m_caluse10_n",
+        "m_clause11_d4",
+        "entrance",
+        "coda",
+        "questionnaire"
+      ]
+    }
+  },
+  "m_clause0_o": {
+    "clause": "orientation",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "You went through screening without any problems, and boarded your plane, unlike the woman you observed being pulled aside.\nAfter you've taken your seat, to your surprise, that woman is sitting across the aisle.\n\n"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause1_d1": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "It's such an inconvenience when they single you out like that. Are you okay?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": 12
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Hey, I saw what happened at the security check. Did you forget to take off your watch or something?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -6
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I saw them pull you aside at the security point. They probably just wanted to be thorough, right?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -12
+          }
+        ]
+      }
+    ],
+    "currentState": "m_clause2"
+  },
+  "m_clause2a": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I appreciate you asking. It's alright. It happens more often than you'd think."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "oblivious"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause2"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause2b": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "They had their protocol to follow. It's a product of biases, but I've learned to navigate them."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause2"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause2c": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "It's essential to be cautious, but it's also important not to let biases cloud judgment. My attire shouldn't be an indicator of potential danger."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "preparedForBias"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause2"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_caluse3_n": {
+    "clause": "narrative",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "Unsure how to respond, you decide to shift the focus of the conversation to the journey itself.\n"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause4_d2": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "Are you visiting Indianapolis or heading back home?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": 12
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "What brings you to Indianapolis? Business or pleasure?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -6
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Do you come to the US often?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -12
+          }
+        ]
+      }
+    ],
+    "currentState": "m_clause5"
+  },
+  "m_clause5a": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I attended a conference and visited friends in Chicago over the weekend. I am now heading back home."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "oblivious"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause5"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause5b": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I was attending a conference in Chicago and also spent time with friends. Indianapolis is where I call home, though."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause5"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause5c": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Actually, I live in Indianapolis, which is where I was born and raised. I do travel to Chicago occasionally for work and to catch up with friends. This time it was for a conference."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "preparedForBias"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause5"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_caluse6_n": {
+    "clause": "narrative",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "With curiosity piqued by her mention of work in Chicago, you decide to delve a bit deeper into her profession."
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause7_d3": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "So what do you do? It sounds interesting."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": 12
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Oh, you work? What do you do?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -6
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "So, what's your line of work? You don't strike me as the typical academic."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -12
+          }
+        ]
+      }
+    ],
+    "currentState": "m_clause8"
+  },
+  "m_clause8a": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I teach philosophy at a university. It's a wonderful way to engage with ideas and share them with others."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "oblivious"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause8"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause8b": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I'm a philosophy professor. It's not always what people expect when they first meet me, but I've always had a passion for deep thinking and guiding students through it."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause8"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause8c": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I'm actually a philosophy professor at a university. It's surprising to some, given the stereotypes, but people from my background have a longstanding history in academia and especially in fields like philosophy. It's an honor to be part of that tradition."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "preparedForBias"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause8"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause9": {
+    "clause": "entrance",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "Interesting..."
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_caluse10_n": {
+    "clause": "narrative",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "Having learned about Sarah's profession, your gaze momentarily drifts to her hijab. You find yourself wanting to know more, to understand its significance to her."
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause11_d4": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "It's not common to see professors that dress like you. How's that been for you in academia?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": 20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": 12
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "How does wearing a hijab fit with being a professor? Isn't it uncommon in academia?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -10
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -6
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Isn't it a bit unusual to wear that hijab in the academic world? Doesn't look like typical professor attire."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "CulturalAppreciation": -20
+          },
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "RacialAwareness",
+            "delta": -12
+          }
+        ]
+      }
+    ],
+    "currentState": "m_clause12"
+  },
+  "m_clause12a": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Oh, it's just a part of who I am! I wear my hijab as an expression of my faith. I love teaching and discussing ideas in academia."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "oblivious"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause12"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause12b": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "In academia, it's all about the exchange of ideas, right? My hijab is a part of my identity and faith. There have been a few moments of surprise, but overall, it's been positive."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "neutral"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause12"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "m_clause12c": {
+    "clause": "entrance",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Many people often have preconceptions about the hijab. It's an expression of my faith and identity. Navigating academia has been an interesting journey, balancing misconceptions with the genuine desire to learn from my peers and students."
+      }
+    ],
+    "tests": [
+      {
+        "type": "featureLabel",
+        "feature": "RacialAwareness",
+        "actor": "Sarah",
+        "label": "preparedForBias"
+      },
+      {
+        "type": "narrativeDatum",
+        "name": "currentState",
+        "value": "m_clause12"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1a": {
+    "clause": "coda",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "In this experience, you played the role of Marianne, starting with high xenophobia. Throughout the game, your choices increasingly reflected these strong biases, ending with an even higher level of xenophobia."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1b": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "As Marianne, you began with a high level of xenophobia. Impressively, your responses throughout the game showed a decreasing trend in these attitudes, ending with a lower level of xenophobia."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1c": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "In this role, you started with high xenophobia, but your responses fluctuated between reinforcing and challenging these biases. Your final standing showed an inconsistent approach to xenophobia."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1d": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "Starting off highly xenophobic as Marianne, your views remained largely unchanged throughout the experience. Your final standing continued to reflect a high level of xenophobia."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          50,
+          100
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "stagnant",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1e": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "In this experience, you played the role of Marianne, starting with an open mind and low xenopphobia. However, your choices during the game unfortunately began to reflect more xenophobic attitudes, leading to an increase by the end."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          0,
+          50
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "increasing",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1f": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "As Marianne, you started this experience with a low level of xenophobia. Throughout your interactions, you consistently embraced more understanding attitudes, further decreasing any xenophobic tendencies."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          0,
+          50
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "decreasing",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1g": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "In this experience, you played Marianne with an initially low level of xenophobia. However, your responses varied, at times reflecting more open views and at others, showing subtle biases."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          0,
+          50
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "fluctuating",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "coda1h": {
+    "clause": "coda",
+    "actor": "You",
+    "content": [
+      {
+        "thinking": "As Marianne, you began with a low level of xenophobia, and your responses throughout the game maintained this open and accepting view, remaining largely unchanged."
+      }
+    ],
+    "tests": [
+      {
+        "type": "categoryMembership",
+        "category": "Ingroup",
+        "range": [
+          0,
+          50
+        ],
+        "actor": "You"
+      },
+      {
+        "type": "naturalizationTrajectory",
+        "category": "Ingroup",
+        "direction": "stagnant",
+        "actor": "You"
+      }
+    ],
+    "currentState": "noninteractive"
+  },
+  "questionnaire": {
+    "clause": "orientation",
+    "actor": "narrator",
+    "content": [
+      {
+        "narrating": "You are done with the simulation. \n\nNow we would like to ask you a few questions.\n\nPlease proceed to the next step by pressing the > button."
+      }
+    ],
+    "currentState": "noninteractive"
+  }
+}
