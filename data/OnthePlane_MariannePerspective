@@ -123,7 +123,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "You went through screening without any problems, and boarded your plane, unlike the woman you observed being pulled aside.\nAfter you've taken your seat, to your surprise, that woman is sitting across the aisle.\n\n"
+        "narrating": "You went through screening without any problems, and boarded your plane, unlike the woman you observed being pulled aside.\n\nAfter you've taken your seat, to your surprise, that woman is sitting across the aisle.\n\n"
       }
     ],
     "currentState": "noninteractive"
@@ -763,7 +763,7 @@
   },
   "coda1b": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "As Marianne, you began with a high level of xenophobia. Impressively, your responses throughout the game showed a decreasing trend in these attitudes, ending with a lower level of xenophobia."
@@ -790,7 +790,7 @@
   },
   "coda1c": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "In this role, you started with high xenophobia, but your responses fluctuated between reinforcing and challenging these biases. Your final standing showed an inconsistent approach to xenophobia."
@@ -817,7 +817,7 @@
   },
   "coda1d": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "Starting off highly xenophobic as Marianne, your views remained largely unchanged throughout the experience. Your final standing continued to reflect a high level of xenophobia."
@@ -844,7 +844,7 @@
   },
   "coda1e": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "In this experience, you played the role of Marianne, starting with an open mind and low xenopphobia. However, your choices during the game unfortunately began to reflect more xenophobic attitudes, leading to an increase by the end."
@@ -871,7 +871,7 @@
   },
   "coda1f": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "As Marianne, you started this experience with a low level of xenophobia. Throughout your interactions, you consistently embraced more understanding attitudes, further decreasing any xenophobic tendencies."
@@ -898,7 +898,7 @@
   },
   "coda1g": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "In this experience, you played Marianne with an initially low level of xenophobia. However, your responses varied, at times reflecting more open views and at others, showing subtle biases."
@@ -925,7 +925,7 @@
   },
   "coda1h": {
     "clause": "coda",
-    "actor": "You",
+    "actor": "narrator",
     "content": [
       {
         "thinking": "As Marianne, you began with a low level of xenophobia, and your responses throughout the game maintained this open and accepting view, remaining largely unchanged."
