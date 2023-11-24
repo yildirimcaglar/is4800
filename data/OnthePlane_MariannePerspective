@@ -67,8 +67,8 @@
     ],
     "categoryPrototypes": {
       "Xenophobic": {
-        "RacialAwareness": 5,
-        "CulturalAppreciation": 5
+        "RacialAwareness": 10,
+        "CulturalAppreciation": 10
       },
       "Multicultural": {
         "RacialAwareness": 90,
@@ -89,13 +89,13 @@
     "actors": {
       "You": {
         "RacialAwareness": 5,
-        "CulturalAppreciation": 0,
+        "CulturalAppreciation": 5,
         "player": "true"
       },
       "Sarah": {
         "Assertiveness": 50,
-        "RacialAwareness": 75,
-        "CulturalAppreciation": 70
+        "RacialAwareness": 90,
+        "CulturalAppreciation": 90
       }
     },
     "substitutes": {},
@@ -163,7 +163,7 @@
     "actor": "You",
     "content": [
       {
-        "thinking": "I wonder what prompted them to single her out. There must be some protocol, but it still looks a bit unsettling. Hope it was just routine."
+        "thinking": "I wonder what prompted them to single her out. There must be some protocol, but it still looks a bit unsettling."
       }
     ],
     "tests": [
