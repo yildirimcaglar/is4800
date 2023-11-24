@@ -257,7 +257,8 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": -10
+            "CulturalAppreciation": -10,
+            "RacialAwareness": -10
           },
           {
             "type": "incrementActorFeatureValue",
