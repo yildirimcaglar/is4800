@@ -8,6 +8,10 @@
         "narrativeDatum": "currentState",
         "wildcard": "p"
       },
+      {
+        "narrativeDatum": "initialStatus",
+        "wildcard": "S"
+      },
       "theme",
       "themeDescription",
       "interactiveClause"
@@ -32,6 +36,7 @@
       },
       {
         "rangeFeature": "RacialAwareness",
+        "wildcard": "R",
         "labels": {
           "oblivious": [
             0,
@@ -156,7 +161,8 @@
         "value": "m_clause0"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "noninteractive",
+    "initialStatus": "low"
   },
   "m_clause0_b": {
     "clause": "entrance",
@@ -185,7 +191,8 @@
         "value": "m_clause0"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "noninteractive",
+    "initialStatus": "moderate"
   },
   "m_clause0_c": {
     "clause": "entrance",
@@ -214,7 +221,8 @@
         "value": "m_clause0"
       }
     ],
-    "currentState": "noninteractive"
+    "currentState": "noninteractive",
+    "initialStatus": "high"
   },
   "m_clause1_d1": {
     "clause": "decision",
@@ -257,8 +265,7 @@
             "type": "moveActorFeatureRelativeToCategory",
             "category": "Outgroup",
             "actor": "You",
-            "CulturalAppreciation": -10,
-            "RacialAwareness": -10
+            "CulturalAppreciation": -10
           },
           {
             "type": "incrementActorFeatureValue",
@@ -828,7 +835,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "In this experience, you played the role of Marianne, starting with high xenophobia. Throughout the game, your choices increasingly reflected these strong biases, ending with an even higher level of xenophobia."
+        "narrating": "In this experience, you played the role of Marianne, starting with *S-label xenophobia. Throughout the game, your choices increasingly reflected these strong biases, ending with an even higher level of xenophobia."
       }
     ],
     "tests": [
