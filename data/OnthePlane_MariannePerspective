@@ -247,10 +247,16 @@
             "CulturalAppreciation": 20
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "RacialAwareness": 20
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "RacialAwareness",
-            "delta": 12
+            "delta": 0
           }
         ]
       },
@@ -268,10 +274,16 @@
             "CulturalAppreciation": -10
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "RacialAwareness": -10
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "RacialAwareness",
-            "delta": -6
+            "delta": 0
           }
         ]
       },
@@ -422,10 +434,16 @@
             "CulturalAppreciation": -10
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "RacialAwareness": -10
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "RacialAwareness",
-            "delta": -6
+            "delta": 0
           }
         ]
       },
@@ -576,10 +594,16 @@
             "CulturalAppreciation": -10
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "RacialAwareness": -10
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "RacialAwareness",
-            "delta": -6
+            "delta": 0
           }
         ]
       },
@@ -730,10 +754,16 @@
             "CulturalAppreciation": -10
           },
           {
+            "type": "moveActorFeatureRelativeToCategory",
+            "category": "Outgroup",
+            "actor": "You",
+            "RacialAwareness": -10
+          },
+          {
             "type": "incrementActorFeatureValue",
             "actor": "You",
             "feature": "RacialAwareness",
-            "delta": -6
+            "delta": 0
           }
         ]
       },
