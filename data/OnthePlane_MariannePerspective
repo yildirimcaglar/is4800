@@ -432,7 +432,7 @@
       {
         "content": [
           {
-            "speaking": "Do you come to the US often?"
+            "speaking": "Do you come to the US often, or is Indianapolis a new stop for you?"
           }
         ],
         "fallouts": [
@@ -698,7 +698,7 @@
       {
         "content": [
           {
-            "speaking": "It's not common to see professors that dress like you. How's that been for you in academia?"
+            "speaking": "I'm curious about your experience in academia with your unique style. How have you found it?"
           }
         ],
         "fallouts": [
@@ -719,7 +719,7 @@
       {
         "content": [
           {
-            "speaking": "How does wearing a hijab fit with being a professor? It seems rather uncommon in academia?"
+            "speaking": "How does wearing a hijab fit with being a professor? It seems rather uncommon in academia."
           }
         ],
         "fallouts": [
