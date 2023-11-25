@@ -110,13 +110,15 @@
         "entrance",
         "m_clause1_d1",
         "entrance",
-        "m_caluse3_n",
+        "m_clause3_n",
+        "m_clause3_1",
+        "m_clause3_2",
         "m_clause4_d2",
         "entrance",
-        "m_caluse6_n",
+        "m_clause6_n",
         "m_clause7_d3",
         "entrance",
-        "m_caluse10_n",
+        "m_clause10_n",
         "m_clause11_d4",
         "entrance",
         "coda",
@@ -542,7 +544,7 @@
     ],
     "currentState": "noninteractive"
   },
-  "m_caluse6_n": {
+  "m_clause6_n": {
     "clause": "narrative",
     "actor": "narrator",
     "content": [
