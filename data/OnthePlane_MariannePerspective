@@ -835,19 +835,10 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "In this experience, you played the role of Marianne, starting with *S xenophobia. Throughout the game, your choices increasingly reflected these strong biases, ending with an even higher level of xenophobia."
+        "narrating": "In this experience, you played the role of Marianne, starting with *S xenophobia. Throughout the game, your choices increasingly reflected strong biases, ending with a higher level of xenophobia."
       }
     ],
     "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          50,
-          100
-        ],
-        "actor": "You"
-      },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
@@ -867,15 +858,6 @@
     ],
     "tests": [
       {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          50,
-          100
-        ],
-        "actor": "You"
-      },
-      {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
         "direction": "decreasing",
@@ -893,15 +875,6 @@
       }
     ],
     "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          50,
-          100
-        ],
-        "actor": "You"
-      },
       {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
@@ -921,147 +894,10 @@
     ],
     "tests": [
       {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          50,
-          100
-        ],
-        "actor": "You"
-      },
-      {
         "type": "naturalizationTrajectory",
         "category": "Ingroup",
         "direction": "stagnant",
         "actor": "You"
-      }
-    ],
-    "currentState": "noninteractive"
-  },
-  "coda1e": {
-    "clause": "coda",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "In this experience, you played the role of Marianne, starting with an open mind and *S xenophobia. However, your choices during the game unfortunately began to reflect more xenophobic attitudes, leading to an increase by the end."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          0,
-          50
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Ingroup",
-        "direction": "increasing",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "initialStatus",
-        "value": "low"
-      }
-    ],
-    "currentState": "noninteractive"
-  },
-  "coda1f": {
-    "clause": "coda",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "As Marianne, you started this experience with a *S level of xenophobia. Throughout your interactions, you consistently embraced more understanding attitudes, further decreasing any xenophobic tendencies."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          0,
-          50
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Ingroup",
-        "direction": "decreasing",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "initialStatus",
-        "value": "low"
-      }
-    ],
-    "currentState": "noninteractive"
-  },
-  "coda1g": {
-    "clause": "coda",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "In this experience, you played Marianne with an initially *S level of xenophobia. However, your responses varied, at times reflecting more open views and at others, showing subtle biases."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          0,
-          50
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Ingroup",
-        "direction": "fluctuating",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "initialStatus",
-        "value": "low"
-      }
-    ],
-    "currentState": "noninteractive"
-  },
-  "coda1h": {
-    "clause": "coda",
-    "actor": "narrator",
-    "content": [
-      {
-        "narrating": "As Marianne, you began with a *S level of xenophobia, and your responses throughout the game maintained this open and accepting view, remaining largely unchanged."
-      }
-    ],
-    "tests": [
-      {
-        "type": "categoryMembership",
-        "category": "Ingroup",
-        "range": [
-          0,
-          50
-        ],
-        "actor": "You"
-      },
-      {
-        "type": "naturalizationTrajectory",
-        "category": "Ingroup",
-        "direction": "stagnant",
-        "actor": "You"
-      },
-      {
-        "type": "narrativeDatum",
-        "name": "initialStatus",
-        "value": "low"
       }
     ],
     "currentState": "noninteractive"
