@@ -242,15 +242,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": -20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": -20
           }
         ]
       },
@@ -263,15 +263,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -10
+            "CulturalAppreciation": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           }
         ]
       },
@@ -284,15 +284,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -20
+            "CulturalAppreciation": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -20
+            "RacialAwareness": 20
           }
         ]
       }
@@ -396,15 +396,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": -20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": -20
           }
         ]
       },
@@ -417,15 +417,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -10
+            "CulturalAppreciation": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           }
         ]
       },
@@ -438,15 +438,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -20
+            "CulturalAppreciation": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -20
+            "RacialAwareness": 20
           }
         ]
       }
@@ -550,15 +550,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": -20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": -20
           }
         ]
       },
@@ -571,15 +571,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -10
+            "CulturalAppreciation": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           }
         ]
       },
@@ -592,15 +592,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -20
+            "CulturalAppreciation": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -20
+            "RacialAwareness": 20
           }
         ]
       }
@@ -704,15 +704,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": 20
+            "CulturalAppreciation": -20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": 20
+            "RacialAwareness": -20
           }
         ]
       },
@@ -725,15 +725,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -10
+            "CulturalAppreciation": 10
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -10
+            "RacialAwareness": 10
           }
         ]
       },
@@ -746,15 +746,15 @@
         "fallouts": [
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "CulturalAppreciation": -20
+            "CulturalAppreciation": 20
           },
           {
             "type": "moveActorFeatureRelativeToCategory",
-            "category": "Outgroup",
+            "category": "Ingroup",
             "actor": "You",
-            "RacialAwareness": -20
+            "RacialAwareness": 20
           }
         ]
       }
@@ -889,7 +889,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": "In this role, you started with *S xenophobia, but your responses fluctuated between reinforcing and challenging these biases. Your final standing showed an inconsistent approach to xenophobia."
+        "narrating": "In this role, you started with *S xenophobia, but your responses fluctuated between reinforcing and challenging these biases. Your final standing showed an inconsistent approach to xenophobia, still ending with a high level of xenophobia."
       }
     ],
     "tests": [
