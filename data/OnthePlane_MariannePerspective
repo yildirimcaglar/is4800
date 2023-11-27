@@ -93,8 +93,8 @@
     },
     "actors": {
       "You": {
-        "RacialAwareness": 50,
-        "CulturalAppreciation": 50,
+        "RacialAwareness": 60,
+        "CulturalAppreciation": 60,
         "player": "true"
       },
       "Sarah": {
