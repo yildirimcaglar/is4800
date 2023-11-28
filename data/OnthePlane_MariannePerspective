@@ -40,14 +40,14 @@
         "labels": {
           "oblivious": [
             0,
-            30
+            29
           ],
           "neutral": [
-            31,
-            70
+            30,
+            69
           ],
           "preparedForBias": [
-            71,
+            70,
             100
           ]
         }
