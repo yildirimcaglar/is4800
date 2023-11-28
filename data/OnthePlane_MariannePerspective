@@ -99,8 +99,8 @@
       },
       "Sarah": {
         "Assertiveness": 50,
-        "RacialAwareness": 90,
-        "CulturalAppreciation": 90
+        "RacialAwareness": 50,
+        "CulturalAppreciation": 50
       }
     },
     "substitutes": {},
