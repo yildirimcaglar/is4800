@@ -1118,7 +1118,7 @@
     "actor": "narrator",
     "content": [
       {
-        "narrating": ""You are done with the simulation. \n\nYou can go back to the main menu by pressing the Next (>) button below."
+        "narrating": "You are done with the simulation. \n\nYou can go back to the main menu by pressing the Next (>) button below."
       }
     ],
     "currentState": "noninteractive"
