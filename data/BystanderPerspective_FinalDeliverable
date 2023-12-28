@@ -1,0 +1,415 @@
+{
+  "ChimeriaSetup": {
+    "narrativeData": [
+      "topic",
+      "topic-type",
+      "passengerStatus",
+      {
+        "narrativeDatum": "FocusTopic",
+        "wildcard": "T"
+      },
+      "theme",
+      "themeDescription"
+    ],
+    "categoryFeatures": [
+      {
+        "rangeFeature": "assertiveness",
+        "labels": {
+          "congenial": [
+            0,
+            50
+          ],
+          "aggressive": [
+            50,
+            100
+          ]
+        }
+      },
+      {
+        "rangeFeature": "Awareness",
+        "labels": {
+          "oblivious": [
+            0,
+            50
+          ],
+          "aware": [
+            50,
+            100
+          ]
+        }
+      }
+    ],
+    "categoryPrototypes": {
+      "Ally": {
+        "assertiveness": 70
+      },
+      "Lackey": {
+        "assertiveness": 20
+      }
+    },
+    "abstractCategories": {
+      "Ingroup": {
+        "wildcard": "X",
+        "concreteCategory": "Lackey"
+      },
+      "Outgroup": {
+        "wildcard": "O",
+        "concreteCategory": "Ally"
+      }
+    },
+    "actors": {
+      "You": {
+        "wildcard": "Y",
+        "player": "true",
+        "assertiveness": 50
+      },
+      "Sarah": {
+        "wildcard": "S",
+        "assertiveness": 50
+      },
+      "Marianne": {
+        "wildcard": "M",
+        "assertiveness": 50
+      }
+    },
+    "substitutes": {
+
+    },
+    "narrativeStructure": {
+      "main": [
+        "orient1",
+        "nIntro1",
+        "nIntro2",
+        "dIntro",
+        "nEscalation1",
+        "nEscalation2",
+        "nEscalation3",
+        "dEscalation",
+        "nResolution1",
+        "nResolution2",
+        "nResolution3",
+        "nResolution4",
+        "dResolution",
+        "conclusion"
+      ]
+    }
+  },
+  "orient1": {
+    "clause": "orientation",
+    "actor": "narrator",
+    "content": [
+      {
+        "speaking": "After witnessing the passenger’s reaction, you decide to check in with both passengers."
+      }
+    ]
+  },
+  "nIntro1": {
+    "clause": "narrative",
+    "actor": "You",
+    "content": [
+      {
+        "speaking": "Hello! I hope you are both enjoying your flight. Is there anything I can do for you?"
+      }
+    ]
+  },
+  "nIntro2": {
+    "clause": "narrative",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "Yes actually, I’m so glad you finally stopped in. I’m honestly quite concerned about the safety of this flight. Are we sure everyone is being properly checked before they enter the plane?"
+      }
+    ]
+  },
+  "dIntro": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I’m so sorry this is worrying you. Let me see what I can do to make you feel more comfortable. "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I totally understand what you mean, but I can assure you that this flight is safe. "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "Everyone has been screened in proper accordance."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": 10
+          }
+        ]
+      }
+    ]
+  },
+  "nEscalation1": {
+    "clause": "narrative",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Excuse me ma’am, but are you concerned about me?"
+      }
+    ]
+  },
+  "nEscalation2": {
+    "clause": "narrative",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "I apologize, but you have to understand. I was born and raised in the United States, you have to understand."
+      }
+    ]
+  },
+  "nEscalation3": {
+    "clause": "narrative",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "Actually, I cannot understand. I was born here as well, and lived in Indiana my entire life."
+      }
+    ]
+  },
+  "dEscalation": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I understand what you mean, Marianne."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "It is totally fine to inquire, Marianne. I hope what Sarah said has made you feel safe about the flight."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "You should not have to answer this, Sarah, is there anything I can do to make up for this experience? "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": 10
+          }
+        ]
+      }
+    ]
+  },
+  "nResolution1": {
+    "clause": "narrative",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "Wow, that’s honestly a surprise to me. Were you adopted?"
+      }
+    ]
+  },
+  "nResolution2": {
+    "clause": "narrative",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "I don’t feel comfortable answering that question to a stranger. But, if I must, my parents were both born here as well."
+      }
+    ]
+  },
+  "nResolution3": {
+    "clause": "narrative",
+    "actor": "Marianne",
+    "content": [
+      {
+        "speaking": "Really? Well, if you’re truly American, why do you still need to wear that thing on your head?"
+      }
+    ]
+  },
+  "nResolution4": {
+    "clause": "narrative",
+    "actor": "Sarah",
+    "content": [
+      {
+        "speaking": "It is actually a hijab, not a random thing on my head. I don’t think it should dictate how American I am."
+      }
+    ]
+  },
+  "dResolution": {
+    "clause": "decision",
+    "actor": "You",
+    "content": [
+      {
+        "expressing": "Choose what you want to say"
+      }
+    ],
+    "choices": [
+      {
+        "content": [
+          {
+            "speaking": "I apologize for this experience, Marianne, it must be very stressful. Do you mind if I offer you a change of seating?"
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": -10
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I can see this is a stressful situation for both of you. I can ensure procedures make this flight experience as safe and comfortable as possible."
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": -5
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "speaking": "I apologize for this experience, Sarah. You shouldn’t have to endure these questions about yourself. Do you mind if I offer you a change of seating? "
+          }
+        ],
+        "fallouts": [
+          {
+            "type": "incrementActorFeatureValue",
+            "actor": "You",
+            "feature": "assertiveness",
+            "delta": 10
+          }
+        ]
+      }
+    ]
+  },
+  "neConclusion1": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          0,
+          30
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who comes to the defense of Sarah. Throughout the game, though, your choices caused Sarah to feel apologetic for her place on the plane, and caused Marianne’s misconceptions to be fulfilled and defended."
+      }
+    ]
+  },
+  "neConclusion2": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          30,
+          70
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah only for very overt misconceptions. Throughout the game, your choices sometimes maintained your defense of Sarah, but other times were complacent in Marianne’s misconceptions. "
+      }
+    ]
+  },
+  "neConclusion3": {
+    "actor": "narrator",
+    "clause": "conclusion",
+    "tests": [
+      {
+        "type": "featureRange",
+        "actor": "You",
+        "feature": "assertiveness",
+        "range": [
+          70,
+          100
+        ]
+      }
+    ],
+    "content": [
+      {
+        "narrating": "In this game, the flight attendant, whose role you played, started as someone who is moderately assertive, and defends Sarah. Throughout the game, your choices allowed Sarah to own her identity unapologetically, and not give into Marianne’s misconceptions."
+      }
+    ]
+  }
+}
